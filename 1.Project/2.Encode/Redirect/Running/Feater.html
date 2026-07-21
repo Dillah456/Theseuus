@@ -370,8 +370,8 @@
 
 <script>
   const API_BASE = 'https://x8ki-letl-twmt.n7.xano.io/api:X6h8irt0/formalhault';
-  const TARGET_ID = 7;   // Target Point
-  const SALDO_INCREMENT = 10;  // Amount to add each visit
+  const TARGET_ID = 7;   // Feater
+  const SALDO_INCREMENT = 10; 
 
   const logEl = document.getElementById('statusLog');
   const shipNameEl = document.getElementById('shipName');
@@ -426,7 +426,6 @@
       countdownEl.textContent = sec + 's';
       if (sec <= 0) {
         clearInterval(iv);
-        //Redirect Point
         window.location.href = 'https://www.google.com';
       }
     }, 1000);
