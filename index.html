@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indeks Sistem Berkas</title>
+<style>
+  :root{
+    --ink:#20242b;
+    --paper:#e9e4d8;
+    --paper-dim:#d9d2c1;
+    --sage:#6f8a68;
+    --amber:#c9973f;
+    --rust:#a85b42;
+    --slate:#5b6b78;
+    --line: rgba(32,36,43,0.18);
+    --mono: 'Courier New', ui-monospace, SFMono-Regular, Menlo, monospace;
+    --serif: Georgia, 'Times New Roman', serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--paper);
+    font-family: var(--mono);
+    min-height:100vh;
+  }
+  .wrap{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 56px 24px 90px;
+  }
+  header{
+    border-bottom: 1px solid rgba(233,228,216,0.25);
+    padding-bottom: 28px;
+    margin-bottom: 44px;
+  }
+  .eyebrow{
+    font-size: 12px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin: 0 0 14px;
+  }
+  h1{
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(32px, 5vw, 52px);
+    margin: 0 0 10px;
+    letter-spacing: -0.01em;
+  }
+  header p{
+    color: rgba(233,228,216,0.65);
+    max-width: 560px;
+    line-height: 1.6;
+    font-size: 14px;
+    margin: 0;
+  }
+  .drawer{
+    border: 1px solid rgba(233,228,216,0.22);
+    border-radius: 3px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    background: rgba(233,228,216,0.03);
+  }
+  .tab{
+    display:flex;
+    align-items:center;
+    gap: 18px;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: var(--paper);
+    font-family: var(--mono);
+    padding: 20px 22px;
+    cursor: pointer;
+    position: relative;
+  }
+  .tab:hover{ background: rgba(233,228,216,0.05); }
+  .tab .num{
+    font-family: var(--serif);
+    font-size: 34px;
+    color: var(--accent, var(--amber));
+    line-height: 1;
+    min-width: 42px;
+  }
+  .tab .label{
+    flex:1;
+  }
+  .tab .name{
+    display:block;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+  }
+  .tab .meta{
+    display:block;
+    font-size: 11px;
+    color: rgba(233,228,216,0.5);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+  .tab .chev{
+    font-size: 18px;
+    color: rgba(233,228,216,0.4);
+    transition: transform 0.25s ease;
+  }
+  .drawer.open .chev{ transform: rotate(90deg); }
+  .drawer.open .tab{ border-bottom: 1px solid rgba(233,228,216,0.15); }
+
+  .contents{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background: rgba(0,0,0,0.15);
+  }
+  .drawer.open .contents{ max-height: 900px; }
+
+  .cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 12px;
+    padding: 20px 22px 24px;
+  }
+  .card{
+    display:block;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent, var(--amber));
+    background: rgba(233,228,216,0.04);
+    color: var(--paper);
+    text-decoration: none;
+    padding: 12px 14px;
+    border-radius: 2px;
+    transition: background 0.15s ease, transform 0.15s ease;
+  }
+  .card:hover{
+    background: rgba(233,228,216,0.09);
+    transform: translateX(2px);
+  }
+  .card .idx{
+    font-size: 10px;
+    color: rgba(233,228,216,0.45);
+    letter-spacing: 0.1em;
+  }
+  .card .title{
+    display:block;
+    font-size: 13.5px;
+    margin-top: 4px;
+  }
+  .subgroup{
+    padding: 4px 22px 20px;
+  }
+  .subgroup h3{
+    font-family: var(--serif);
+    font-weight:400;
+    font-size: 13px;
+    color: rgba(233,228,216,0.55);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin: 14px 0 10px;
+    padding-top: 14px;
+    border-top: 1px dashed rgba(233,228,216,0.15);
+  }
+  .flow{
+    padding: 4px 22px 26px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+  .flow a{
+    color: var(--paper);
+    text-decoration:none;
+    border:1px solid var(--line);
+    border-radius: 2px;
+    padding: 10px 14px;
+    font-size: 13px;
+    background: rgba(233,228,216,0.04);
+  }
+  .flow a:hover{ background: rgba(233,228,216,0.09); }
+  .flow .arrow{ color: rgba(233,228,216,0.35); font-size: 13px; }
+
+  footer{
+    margin-top: 50px;
+    font-size: 11px;
+    color: rgba(233,228,216,0.35);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 560px){
+    .tab{ padding: 16px; gap: 12px; }
+    .tab .num{ font-size: 26px; min-width: 30px; }
+    .cards{ grid-template-columns: 1fr 1fr; padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Indeks Direktori &mdash; Metode PARA</p>
+    <h1>Peta Berkas</h1>
+    <p>Empat laci utama sistem: proyek yang berjalan, area tanggung jawab, sumber daya referensi, dan arsip yang sudah selesai. Ketuk tiap laci untuk membuka isinya.</p>
+  </header>
+
+  <!-- 1. PROJECT -->
+  <section class="drawer" data-accent="rust" style="--accent:var(--rust)">
+    <button class="tab" onclick="toggle(this)">
+      <span class="num">1</span>
+      <span class="label">
+        <span class="name">Project</span>
+        <span class="meta">Alur kerja aktif &middot; Read &rarr; Encode &rarr; Annotate &rarr; Ponder</span>
+      </span>
+      <span class="chev">&#8250;</span>
+    </button>
+    <div class="contents">
+      <div class="flow">
+        <a href="1.Project/1.Read/">1. Read</a>
+        <span class="arrow">&rarr;</span>
+        <a href="1.Project/2.Encode/">2. Encode</a>
+        <span class="arrow">&rarr;</span>
+        <a href="1.Project/3.Annonate/">3. Annonate</a>
+        <span class="arrow">&rarr;</span>
+        <a href="1.Project/4.Ponder/">4. Ponder</a>
+      </div>
+
+      <div class="subgroup">
+        <h3>1. Read &mdash; aset</h3>
+      </div>
+      <div class="cards" style="padding-top:0">
+        <a class="card" href="1.Project/1.Read/asset/js/">
+          <span class="idx">ASSET / JS</span>
+          <span class="title">asset/js</span>
+        </a>
+        <a class="card" href="1.Project/1.Read/asset/css/">
+          <span class="idx">ASSET / CSS</span>
+          <span class="title">asset/css</span>
+        </a>
+      </div>
+
+      <div class="subgroup">
+        <h3>2. Encode &mdash; Redirect</h3>
+      </div>
+      <div class="cards" style="padding-top:0">
+        <a class="card" href="1.Project/2.Encode/Redirect/Local/">
+          <span class="idx">REDIRECT</span>
+          <span class="title">Local</span>
+        </a>
+        <a class="card" href="1.Project/2.Encode/Redirect/Running/">
+          <span class="idx">REDIRECT</span>
+          <span class="title">Running</span>
+        </a>
+        <a class="card" href="1.Project/2.Encode/Redirect/Simple/">
+          <span class="idx">REDIRECT</span>
+          <span class="title">Simple</span>
+        </a>
+        <a class="card" href="1.Project/2.Encode/Redirect/Transactional/">
+          <span class="idx">REDIRECT</span>
+          <span class="title">Transactional</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. AREA -->
+  <section class="drawer" data-accent="sage" style="--accent:var(--sage)">
+    <button class="tab" onclick="toggle(this)">
+      <span class="num">2</span>
+      <span class="label">
+        <span class="name">Area</span>
+        <span class="meta">Tanggung jawab berkelanjutan</span>
+      </span>
+      <span class="chev">&#8250;</span>
+    </button>
+    <div class="contents">
+      <div class="cards">
+        <a class="card" href="2.Area/1.Executive/">
+          <span class="idx">2.1</span>
+          <span class="title">Executive</span>
+        </a>
+        <a class="card" href="2.Area/2.Research-and-Development/">
+          <span class="idx">2.2</span>
+          <span class="title">Research &amp; Development</span>
+        </a>
+        <a class="card" href="2.Area/3.Behavioral-and-Social/">
+          <span class="idx">2.3</span>
+          <span class="title">Behavioral &amp; Social</span>
+        </a>
+        <a class="card" href="2.Area/4.Knowledge/">
+          <span class="idx">2.4</span>
+          <span class="title">Knowledge</span>
+        </a>
+        <a class="card" href="2.Area/5.Economic/">
+          <span class="idx">2.5</span>
+          <span class="title">Economic</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. RESOURCE -->
+  <section class="drawer" data-accent="slate" style="--accent:var(--slate)">
+    <button class="tab" onclick="toggle(this)">
+      <span class="num">3</span>
+      <span class="label">
+        <span class="name">Resource</span>
+        <span class="meta">Referensi &amp; materi pendukung</span>
+      </span>
+      <span class="chev">&#8250;</span>
+    </button>
+    <div class="contents">
+      <div class="cards">
+        <a class="card" href="3.Resource/1.Capture/">
+          <span class="idx">3.1</span>
+          <span class="title">Capture</span>
+        </a>
+        <a class="card" href="3.Resource/2.Organize/">
+          <span class="idx">3.2</span>
+          <span class="title">Organize</span>
+        </a>
+        <a class="card" href="3.Resource/3.Distill/">
+          <span class="idx">3.3</span>
+          <span class="title">Distill</span>
+        </a>
+        <a class="card" href="3.Resource/4.Express/">
+          <span class="idx">3.4</span>
+          <span class="title">Express</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ARCHIVE -->
+  <section class="drawer" data-accent="amber" style="--accent:var(--amber)">
+    <button class="tab" onclick="toggle(this)">
+      <span class="num">4</span>
+      <span class="label">
+        <span class="name">Archive</span>
+        <span class="meta">Berkas yang sudah selesai</span>
+      </span>
+      <span class="chev">&#8250;</span>
+    </button>
+    <div class="contents">
+      <div class="cards">
+        <a class="card" href="4.Archive/1.Executive-Report/">
+          <span class="idx">4.1</span>
+          <span class="title">Executive Report</span>
+        </a>
+        <a class="card" href="4.Archive/2.Periodic-Report/">
+          <span class="idx">4.2</span>
+          <span class="title">Periodic Report</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>Struktur berbasis metode PARA &middot; ketuk laci untuk membuka</footer>
+</div>
+
+<script>
+  function toggle(btn){
+    var drawer = btn.closest('.drawer');
+    var wasOpen = drawer.classList.contains('open');
+    document.querySelectorAll('.drawer.open').forEach(function(d){
+      if(d !== drawer) d.classList.remove('open');
+    });
+    drawer.classList.toggle('open', !wasOpen);
+  }
+  // buka laci pertama secara default
+  document.addEventListener('DOMContentLoaded', function(){
+    var first = document.querySelector('.drawer');
+    if(first) first.classList.add('open');
+  });
+</script>
+
+</body>
+</html>
