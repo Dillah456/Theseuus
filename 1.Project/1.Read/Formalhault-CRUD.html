@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Formalhault // Registry Control</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Chakra+Petch:wght@300;500;700&display=swap');
+
+  :root {
+    --bg: #080c14;
+    --panel: #0d1525;
+    --panel2: #0f1a30;
+    --border: #1a2f52;
+    --accent: #00d4ff;
+    --accent2: #00ff99;
+    --gold: #ffd166;
+    --text: #c8ddf0;
+    --muted: #4a6a8a;
+    --danger: #ff4757;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Chakra Petch', sans-serif;
+    min-height: 100vh;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .scanlines {
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(to bottom, transparent 0px, transparent 3px, rgba(0,0,0,0.06) 3px, rgba(0,0,0,0.06) 4px);
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .wrap {
+    position: relative;
+    z-index: 1;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
+  }
+
+  .badge {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .badge::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1);} 50%{opacity:.4;transform:scale(.7);} }
+
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .5px;
+  }
+
+  .sub {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 1px;
+    margin-top: 6px;
+  }
+
+  .btn {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: .5px;
+    color: var(--bg);
+    background: var(--accent);
+    border: none;
+    padding: 11px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: filter .15s, transform .1s;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 100%);
+  }
+  .btn:hover { filter: brightness(1.15); }
+  .btn:active { transform: scale(.97); }
+  .btn.ghost {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    clip-path: none;
+    padding: 10px 18px;
+  }
+  .btn.ghost:hover { border-color: var(--accent); }
+  .btn.danger-ghost {
+    background: transparent;
+    color: var(--danger);
+    border: 1px solid rgba(255,71,87,0.35);
+    clip-path: none;
+  }
+  .btn.danger-ghost:hover { border-color: var(--danger); background: rgba(255,71,87,0.08); }
+  .btn.small { padding: 6px 12px; font-size: 11px; }
+  .btn:disabled { opacity: .4; cursor: not-allowed; }
+
+  .toolbar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+  }
+
+  .search {
+    flex: 1;
+    min-width: 200px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    padding: 10px 14px;
+    border-radius: 3px;
+  }
+  .search:focus { outline: none; border-color: var(--accent); }
+  .search::placeholder { color: var(--muted); }
+
+  .count {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .table-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  table { width: 100%; border-collapse: collapse; }
+
+  thead th {
+    text-align: left;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel2);
+  }
+
+  tbody td {
+    padding: 14px 18px;
+    border-bottom: 1px solid rgba(26,47,82,0.5);
+    font-size: 14px;
+    vertical-align: middle;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr { transition: background .15s; }
+  tbody tr:hover { background: rgba(0,212,255,0.04); }
+
+  td.mono, th.mono { font-family: 'Share Tech Mono', monospace; }
+  td.id-cell { color: var(--muted); font-family: 'Share Tech Mono', monospace; }
+  td.saldo-cell { font-family: 'Share Tech Mono', monospace; color: var(--accent2); font-weight: 500; }
+  td.nama-cell { color: #fff; font-weight: 500; }
+
+  .row-actions { display: flex; gap: 8px; justify-content: flex-end; }
+
+  .empty-state, .loading-state {
+    padding: 48px 24px;
+    text-align: center;
+    color: var(--muted);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  /* Modal */
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(3,6,12,0.7);
+    backdrop-filter: blur(2px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+  }
+  .overlay.show { display: flex; }
+
+  .modal {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    width: 380px;
+    max-width: 92vw;
+    padding: 28px 26px;
+    position: relative;
+    clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  }
+
+  .modal h2 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 4px;
+    letter-spacing: .5px;
+  }
+  .modal .modal-sub {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+  }
+
+  .field { margin-bottom: 16px; }
+  .field label {
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .field input {
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 3px;
+  }
+  .field input:focus { outline: none; border-color: var(--accent); }
+
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .modal-error {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--danger);
+    margin-top: -6px;
+    margin-bottom: 14px;
+    display: none;
+  }
+  .modal-error.show { display: block; }
+
+  /* Toasts */
+  .toast-stack {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 200;
+  }
+  .toast {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    padding: 12px 16px;
+    border-radius: 3px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent2);
+    color: var(--text);
+    min-width: 220px;
+    animation: toastIn .25s ease;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+  }
+  .toast.err { border-left-color: var(--danger); }
+  @keyframes toastIn { from { opacity:0; transform: translateY(8px);} to {opacity:1; transform:translateY(0);} }
+
+  @media (max-width: 640px) {
+    thead th:nth-child(1), tbody td:nth-child(1) { display: none; }
+    .row-actions { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="scanlines"></div>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="badge">REGISTRY // CONTROL PANEL</div>
+      <h1>FORMALHAULT</h1>
+      <div class="sub" id="apiLabel">API_BASE ></div>
+    </div>
+    <button class="btn" id="btnNew">+ NEW ENTRY</button>
+  </header>
+
+  <div class="toolbar">
+    <input class="search" id="searchInput" type="text" placeholder="Filter by name or reg no..." />
+    <span class="count" id="countLabel">— records</span>
+    <button class="btn ghost small" id="btnRefresh">REFRESH</button>
+  </div>
+
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th class="mono">ID</th>
+          <th class="mono">REG NO</th>
+          <th>NAMA</th>
+          <th class="mono">SALDO</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr><td colspan="5" class="loading-state">LOADING REGISTRY...</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <h2 id="modalTitle">New Entry</h2>
+    <div class="modal-sub" id="modalSub">CREATE REGISTRY RECORD</div>
+
+    <div class="field">
+      <label>Nama</label>
+      <input type="text" id="fNama" placeholder="e.g. Mudrock" />
+    </div>
+    <div class="field">
+      <label>Reg No</label>
+      <input type="number" id="fRegNo" placeholder="e.g. 11" />
+    </div>
+    <div class="field">
+      <label>Saldo</label>
+      <input type="number" id="fSaldo" placeholder="e.g. 0" />
+    </div>
+    <div class="modal-error" id="modalError">ERROR</div>
+
+    <div class="modal-actions">
+      <button class="btn ghost small" id="btnCancel">CANCEL</button>
+      <button class="btn small" id="btnSave">SAVE</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast-stack" id="toastStack"></div>
+
+<script>
+  const API_BASE = 'https://x8ki-letl-twmt.n7.xano.io/api:X6h8irt0/formalhault';
+
+  const tbody = document.getElementById('tbody');
+  const countLabel = document.getElementById('countLabel');
+  const searchInput = document.getElementById('searchInput');
+  const overlay = document.getElementById('overlay');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalSub = document.getElementById('modalSub');
+  const fNama = document.getElementById('fNama');
+  const fRegNo = document.getElementById('fRegNo');
+  const fSaldo = document.getElementById('fSaldo');
+  const modalError = document.getElementById('modalError');
+  const btnSave = document.getElementById('btnSave');
+  const toastStack = document.getElementById('toastStack');
+
+  document.getElementById('apiLabel').textContent = `API_BASE > ${API_BASE}`;
+
+  let records = [];
+  let editingId = null; // null = create mode
+
+  function toast(msg, isErr = false) {
+    const t = document.createElement('div');
+    t.className = 'toast' + (isErr ? ' err' : '');
+    t.textContent = msg;
+    toastStack.appendChild(t);
+    setTimeout(() => {
+      t.style.opacity = '0';
+      t.style.transition = 'opacity .3s';
+      setTimeout(() => t.remove(), 300);
+    }, 3000);
+  }
+
+  function render(list) {
+    if (!list.length) {
+      tbody.innerHTML = `<tr><td colspan="5" class="empty-state">NO RECORDS FOUND — add one to populate the registry.</td></tr>`;
+      countLabel.textContent = '0 records';
+      return;
+    }
+    countLabel.textContent = `${list.length} record${list.length === 1 ? '' : 's'}`;
+    tbody.innerHTML = list.map(r => `
+      <tr data-id="${r.id}">
+        <td class="id-cell">#${r.id}</td>
+        <td class="mono">${String(r.RegNo ?? 0).padStart(3, '0')}</td>
+        <td class="nama-cell">${escapeHtml(r.Nama ?? '')}</td>
+        <td class="saldo-cell">${r.Saldo ?? 0}</td>
+        <td>
+          <div class="row-actions">
+            <button class="btn ghost small" data-action="edit" data-id="${r.id}">EDIT</button>
+            <button class="btn danger-ghost small" data-action="delete" data-id="${r.id}">DELETE</button>
+          </div>
+        </td>
+      </tr>
+    `).join('');
+  }
+
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function applyFilter() {
+    const q = searchInput.value.trim().toLowerCase();
+    if (!q) { render(records); return; }
+    render(records.filter(r =>
+      (r.Nama ?? '').toLowerCase().includes(q) ||
+      String(r.RegNo ?? '').includes(q) ||
+      String(r.id).includes(q)
+    ));
+  }
+
+  async function loadRecords() {
+    tbody.innerHTML = `<tr><td colspan="5" class="loading-state">LOADING REGISTRY...</td></tr>`;
+    try {
+      const res = await fetch(API_BASE);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      records = await res.json();
+      records.sort((a, b) => a.id - b.id);
+      applyFilter();
+    } catch (e) {
+      tbody.innerHTML = `<tr><td colspan="5" class="empty-state">FAILED TO LOAD — ${escapeHtml(e.message)}</td></tr>`;
+      toast(`Load failed: ${e.message}`, true);
+    }
+  }
+
+  function openModal(mode, record = null) {
+    modalError.classList.remove('show');
+    if (mode === 'edit' && record) {
+      editingId = record.id;
+      modalTitle.textContent = `Edit #${record.id}`;
+      modalSub.textContent = 'UPDATE REGISTRY RECORD';
+      fNama.value = record.Nama ?? '';
+      fRegNo.value = record.RegNo ?? '';
+      fSaldo.value = record.Saldo ?? '';
+    } else {
+      editingId = null;
+      modalTitle.textContent = 'New Entry';
+      modalSub.textContent = 'CREATE REGISTRY RECORD';
+      fNama.value = '';
+      fRegNo.value = '';
+      fSaldo.value = '0';
+    }
+    overlay.classList.add('show');
+    fNama.focus();
+  }
+
+  function closeModal() {
+    overlay.classList.remove('show');
+  }
+
+  async function saveRecord() {
+    const nama = fNama.value.trim();
+    const regNo = fRegNo.value === '' ? null : Number(fRegNo.value);
+    const saldo = fSaldo.value === '' ? 0 : Number(fSaldo.value);
+
+    if (!nama) {
+      modalError.textContent = 'Nama is required.';
+      modalError.classList.add('show');
+      return;
+    }
+
+    const payload = { Nama: nama, RegNo: regNo, Saldo: saldo };
+    btnSave.disabled = true;
+    btnSave.textContent = 'SAVING...';
+
+    try {
+      let res;
+      if (editingId) {
+        res = await fetch(`${API_BASE}/${editingId}`, {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      } else {
+        res = await fetch(API_BASE, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      await res.json();
+
+      closeModal();
+      toast(editingId ? `Record #${editingId} updated.` : `${nama} added to registry.`);
+      await loadRecords();
+    } catch (e) {
+      modalError.textContent = `Save failed: ${e.message}`;
+      modalError.classList.add('show');
+      toast(`Save failed: ${e.message}`, true);
+    } finally {
+      btnSave.disabled = false;
+      btnSave.textContent = 'SAVE';
+    }
+  }
+
+  async function deleteRecord(id) {
+    const rec = records.find(r => r.id == id);
+    const label = rec ? rec.Nama : `#${id}`;
+    if (!confirm(`Delete "${label}" (ID ${id})? This can't be undone.`)) return;
+
+    try {
+      const res = await fetch(`${API_BASE}/${id}`, { method: 'DELETE' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      toast(`${label} removed from registry.`);
+      await loadRecords();
+    } catch (e) {
+      toast(`Delete failed: ${e.message}`, true);
+    }
+  }
+
+  // Event wiring
+  document.getElementById('btnNew').addEventListener('click', () => openModal('create'));
+  document.getElementById('btnCancel').addEventListener('click', closeModal);
+  document.getElementById('btnRefresh').addEventListener('click', loadRecords);
+  document.getElementById('btnSave').addEventListener('click', saveRecord);
+  searchInput.addEventListener('input', applyFilter);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+
+  tbody.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-action]');
+    if (!btn) return;
+    const id = btn.dataset.id;
+    if (btn.dataset.action === 'edit') {
+      const record = records.find(r => r.id == id);
+      openModal('edit', record);
+    } else if (btn.dataset.action === 'delete') {
+      deleteRecord(id);
+    }
+  });
+
+  loadRecords();
+</script>
+</body>
+</html>

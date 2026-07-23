@@ -1,5 +1,5 @@
 
-Gradient : https://gradient.academy/ dari Abay ITB : https://www.instagram.com/abayy.itb26/reels/?next=%2F
+ dari Abay ITB : https://www.instagram.com/abayy.itb26/reels/?next=%2F
 
 File : 
 1. DivBehaviorHealth.php
@@ -17,5 +17,13 @@ File Proyek :
 1. Test-F 
 
 
-https://web.sukabumikab.go.id/
+Sukabumi : https://web.sukabumikab.go.id/
+Pesona Sukabumi : https://www.instagram.com/pesona.sukabumi/
 
+# Universitas
+1. Pakuan : https://www.instagram.com/official_unpak/
+2. UMMI : https://www.instagram.com/ummi_sukabumi/
+3. IPB : https://www.instagram.com/ipbofficial/
+4. ITB : https://www.instagram.com/itb1920/
+5. Telkom : https://www.instagram.com/telkomuniversity/
+6. Unikom : https://www.instagram.com/unikom_official/
