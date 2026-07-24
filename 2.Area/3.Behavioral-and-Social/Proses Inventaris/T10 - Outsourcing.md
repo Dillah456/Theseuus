@@ -18,3 +18,11 @@ Starrail Wiki -> https://honkai-star-rail.fandom.com/wiki/Honkai:_Star_Rail_Wiki
 Anikoto -> https://anikoto.cz/
 Otakudesu -> https://otakudesu.blog/anime-list/
 MangaDex -> https://mangadex.org/ (https://www.reddit.com/r/mangadex/)
+
+## VTuber Base
+* Vtuber Tengoku
+* Vtuber Bits
+* Hololive
+* VSpo
+* Nijisanji
+
