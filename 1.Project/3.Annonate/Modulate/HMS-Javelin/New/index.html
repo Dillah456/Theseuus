@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Katalog Catatan — Baca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-title">Katalog Catatan <span class="drawer-no">/ Laci 01</span></div>
+    <nav class="site-nav">
+      <a href="index.html" aria-current="page">Baca</a>
+      <a href="rekomendasi.html">Rekomendasi</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="katalog-layout">
+      <aside class="laci">
+        <div class="laci-label">Daftar Kartu</div>
+        <ul class="daftar-kartu" id="daftar-kartu"></ul>
+      </aside>
+
+      <section class="kartu-baca" id="kartu-baca">
+        <p class="status-muat">Memuat kamus catatan…</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">KAMUS_CATATAN · dictionary.js — data terpisah dari tampilan</footer>
+
+  <script src="js/dictionary.js"></script>
+  <script src="js/render.js"></script>
+</body>
+</html>

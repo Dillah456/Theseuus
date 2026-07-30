@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catatan Blog — Notion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f7f4;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --text-muted: #5c5c5c;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --border: #e5e2db;
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+      --radius: 12px;
+      --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+      --font-serif: 'Merriweather', Georgia, serif;
+      --max-width: 720px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ===== Header ===== */
+    .site-header {
+      background: rgba(255, 255, 255, 0.92);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo-mark {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .nav { display: flex; gap: 0.25rem; }
+
+    .nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.4rem 0.85rem;
+      border-radius: 8px;
+      transition: color 0.15s, background 0.15s;
+    }
+
+    .nav a:hover { color: var(--accent); background: var(--accent-soft); }
+
+    /* ===== Hero ===== */
+    .hero {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 1.5rem 2rem;
+    }
+
+    .hero-inner { max-width: var(--max-width); margin: 0 auto; }
+
+    .hero-label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 0.3rem 0.7rem;
+      border-radius: 999px;
+      margin-bottom: 0.85rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.25;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    .hero-meta span { display: flex; align-items: center; gap: 0.35rem; }
+
+    .hero-actions { margin-top: 1rem; }
+
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      padding: 0.45rem 0.9rem;
+      border-radius: 8px;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ===== Main layout ===== */
+    .layout {
+      flex: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      width: 100%;
+    }
+
+    @media (min-width: 900px) {
+      .layout { grid-template-columns: 1fr 260px; align-items: start; }
+    }
+
+    .article-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .embed-frame-wrap {
+      position: relative;
+      width: 100%;
+      /* Notion pages are tall; give generous height and let user scroll inside */
+      height: 80vh;
+      min-height: 560px;
+      background: var(--surface);
+    }
+
+    .embed-frame-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+
+    .loading, .fallback {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem;
+      color: var(--text-muted);
+      background: var(--surface);
+      text-align: center;
+    }
+
+    .fallback { display: none; }
+
+    .spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .fallback p { max-width: 40ch; font-size: 0.9rem; }
+
+    /* ===== Sidebar ===== */
+    .sidebar { display: flex; flex-direction: column; gap: 1.25rem; }
+
+    .side-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.35rem;
+      box-shadow: var(--shadow);
+    }
+
+    .side-card h3 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.85rem;
+    }
+
+    .side-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+
+    .side-card p + p { margin-top: 0.6rem; }
+
+    .config-field { margin-bottom: 0.75rem; }
+
+    .config-field label {
+      display: block;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 0.3rem;
+    }
+
+    .config-field input {
+      width: 100%;
+      font-size: 0.85rem;
+      font-family: var(--font-sans);
+      padding: 0.5rem 0.6rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .config-field input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .btn-primary {
+      width: 100%;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: white;
+      background: var(--accent);
+      border: none;
+      padding: 0.55rem 0.9rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+
+    .btn-primary:hover { opacity: 0.9; }
+
+    .tag-list { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+    .tag {
+      font-size: 0.75rem;
+      font-weight: 500;
+      background: #f0efe9;
+      color: var(--text-muted);
+      padding: 0.25rem 0.65rem;
+      border-radius: 999px;
+    }
+
+    /* ===== Footer ===== */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      padding: 1.75rem 1.5rem;
+      margin-top: auto;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    .footer-inner a { color: var(--text-muted); text-decoration: none; }
+    .footer-inner a:hover { color: var(--accent); }
+
+    @media (max-width: 899px) { .sidebar { order: -1; } }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark">C</span>
+        Catatan Blog
+      </a>
+      <nav class="nav">
+        <a href="#">Beranda</a>
+        <a href="#">Arsip</a>
+        <a href="#">Tentang</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">Notion</span>
+      <h1 id="page-title">Catatan dari Notion</h1>
+      <div class="hero-meta">
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <span id="page-date">—</span>
+        </span>
+        <span>Ditampilkan lewat iframe</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#" id="open-notion-link" class="btn-outline" target="_blank" rel="noopener">
+          Buka di Notion ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <main>
+      <div class="article-card">
+        <div class="embed-frame-wrap">
+          <div class="loading" id="loading-state">
+            <div class="spinner"></div>
+            <span>Memuat halaman Notion…</span>
+          </div>
+          <div class="fallback" id="fallback-state">
+            <strong>Halaman tidak bisa ditampilkan di sini.</strong>
+            <p>
+              Notion sering memblokir tampilan iframe dari domain lain (X-Frame-Options).
+              Pastikan halaman sudah di-<em>share ke web</em> lewat tombol "Share → Publish to web",
+              lalu gunakan tautan hasil publish itu di kolom URL. Kalau tetap gagal, gunakan tombol
+              "Buka di Notion" di atas.
+            </p>
+          </div>
+          <iframe
+            id="notion-frame"
+            src=""
+            title="Notion embed"
+            referrerpolicy="no-referrer-when-downgrade"
+            allow="clipboard-write"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <aside class="sidebar">
+      <div class="side-card">
+        <h3>Sumber Notion</h3>
+        <div class="config-field">
+          <label for="notion-url-input">URL publik Notion</label>
+          <input type="url" id="notion-url-input" placeholder="https://namamu.notion.site/judul-halaman">
+        </div>
+        <button class="btn-primary" id="load-notion-btn">Muat halaman</button>
+      </div>
+      <div class="side-card">
+        <h3>Tentang</h3>
+        <p>Halaman ini menampilkan catatan Notion yang sudah dipublikasikan ke web, ditampilkan lewat iframe di dalam tema blog ini.</p>
+        <p>Ganti URL di kolom sebelah, atau atur langsung lewat parameter <code>?url=</code> pada alamat halaman ini.</p>
+      </div>
+      <div class="side-card">
+        <h3>Tag</h3>
+        <div class="tag-list">
+          <span class="tag">notion</span>
+          <span class="tag">iframe</span>
+          <span class="tag">blog</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Catatan Blog · Notion Embed</span>
+      <span>
+        <a href="#">Beranda</a> ·
+        <a href="#">Arsip</a> ·
+        <a href="#">Tentang</a>
+      </span>
+    </div>
+  </footer>
+
+  <script>
+    function formatDate(d) {
+      return d.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+    }
+
+    const frame = document.getElementById('notion-frame');
+    const loadingState = document.getElementById('loading-state');
+    const fallbackState = document.getElementById('fallback-state');
+    const urlInput = document.getElementById('notion-url-input');
+    const openLink = document.getElementById('open-notion-link');
+    const loadBtn = document.getElementById('load-notion-btn');
+
+    let fallbackTimer = null;
+
+    function loadNotionUrl(url) {
+      if (!url) return;
+      loadingState.style.display = 'flex';
+      fallbackState.style.display = 'none';
+      openLink.href = url;
+
+      // Show a fallback message if the iframe hasn't loaded within a few seconds
+      // (common when Notion blocks embedding for a given page).
+      clearTimeout(fallbackTimer);
+      fallbackTimer = setTimeout(() => {
+        loadingState.style.display = 'none';
+        fallbackState.style.display = 'flex';
+      }, 6000);
+
+      frame.src = url;
+    }
+
+    frame.addEventListener('load', () => {
+      clearTimeout(fallbackTimer);
+      loadingState.style.display = 'none';
+      fallbackState.style.display = 'none';
+    });
+
+    loadBtn.addEventListener('click', () => {
+      loadNotionUrl(urlInput.value.trim());
+    });
+
+    urlInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') loadNotionUrl(urlInput.value.trim());
+    });
+
+    // Support ?url= query param so this page can be linked directly to a note
+    const params = new URLSearchParams(window.location.search);
+    const initialUrl = params.get('url');
+
+    document.getElementById('page-date').textContent = formatDate(new Date());
+
+    if (initialUrl) {
+      urlInput.value = initialUrl;
+      loadNotionUrl(initialUrl);
+    } else {
+      loadingState.innerHTML = '<span style="color: var(--text-muted); font-size: 0.9rem;">Masukkan URL Notion di sidebar untuk mulai memuat.</span>';
+    }
+  </script>
+</body>
+</html>

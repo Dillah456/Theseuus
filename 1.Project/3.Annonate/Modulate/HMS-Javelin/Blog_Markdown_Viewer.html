@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catatan Blog</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f7f4;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --text-muted: #5c5c5c;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --border: #e5e2db;
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+      --radius: 12px;
+      --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+      --font-serif: 'Merriweather', Georgia, serif;
+      --max-width: 720px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ===== Header ===== */
+    .site-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+      background: rgba(255, 255, 255, 0.92);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo-mark {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .nav {
+      display: flex;
+      gap: 0.25rem;
+    }
+
+    .nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.4rem 0.85rem;
+      border-radius: 8px;
+      transition: color 0.15s, background 0.15s;
+    }
+
+    .nav a:hover {
+      color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    /* ===== Hero / Blog title area ===== */
+    .hero {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 1.5rem 2rem;
+    }
+
+    .hero-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .hero-label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 0.3rem 0.7rem;
+      border-radius: 999px;
+      margin-bottom: 0.85rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.25;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    .hero-meta span {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    /* ===== Main content ===== */
+    .layout {
+      flex: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+
+    @media (min-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr 260px;
+        align-items: start;
+      }
+    }
+
+    .article-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .article-body {
+      padding: 2rem 1.75rem 2.5rem;
+    }
+
+    @media (min-width: 600px) {
+      .article-body {
+        padding: 2.5rem 2.75rem 3rem;
+      }
+    }
+
+    /* Markdown content styling */
+    #content {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      color: #2d2d2d;
+    }
+
+    #content > *:first-child {
+      margin-top: 0;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4 {
+      font-family: var(--font-sans);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-top: 2em;
+      margin-bottom: 0.6em;
+      line-height: 1.3;
+    }
+
+    #content h1 { font-size: 1.75rem; }
+    #content h2 {
+      font-size: 1.4rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+    #content h3 { font-size: 1.2rem; }
+    #content h4 { font-size: 1.05rem; }
+
+    #content p {
+      margin-bottom: 1.25em;
+    }
+
+    #content a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    #content a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    #content ul,
+    #content ol {
+      margin: 0 0 1.25em 1.4em;
+    }
+
+    #content li {
+      margin-bottom: 0.4em;
+    }
+
+    #content blockquote {
+      margin: 1.5em 0;
+      padding: 0.85em 1.25em;
+      border-left: 4px solid var(--accent);
+      background: var(--accent-soft);
+      border-radius: 0 8px 8px 0;
+      color: #1e3a5f;
+      font-style: italic;
+    }
+
+    #content blockquote p:last-child {
+      margin-bottom: 0;
+    }
+
+    #content code {
+      font-family: 'SF Mono', 'Fira Code', ui-monospace, monospace;
+      font-size: 0.88em;
+      background: #f0efe9;
+      padding: 0.15em 0.4em;
+      border-radius: 4px;
+      color: #b45309;
+    }
+
+    #content pre {
+      background: #1e1e2e;
+      color: #cdd6f4;
+      padding: 1.25rem 1.4rem;
+      border-radius: 10px;
+      overflow-x: auto;
+      margin: 1.5em 0;
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    #content pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+      font-size: inherit;
+    }
+
+    #content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 1.5em 0;
+      display: block;
+    }
+
+    #content hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5em 0;
+    }
+
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5em 0;
+      font-size: 0.95rem;
+    }
+
+    #content th,
+    #content td {
+      border: 1px solid var(--border);
+      padding: 0.6em 0.9em;
+      text-align: left;
+    }
+
+    #content th {
+      background: #f5f4f0;
+      font-family: var(--font-sans);
+      font-weight: 600;
+    }
+
+    /* Loading state */
+    .loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 4rem 2rem;
+      color: var(--text-muted);
+    }
+
+    .spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .error {
+      padding: 2rem;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: 10px;
+      color: #991b1b;
+      text-align: center;
+    }
+
+    /* ===== Sidebar ===== */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .side-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.35rem;
+      box-shadow: var(--shadow);
+    }
+
+    .side-card h3 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.85rem;
+    }
+
+    .side-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .toc-list {
+      list-style: none;
+    }
+
+    .toc-list li {
+      margin-bottom: 0.35rem;
+    }
+
+    .toc-list a {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: block;
+      padding: 0.3rem 0;
+      border-left: 2px solid transparent;
+      padding-left: 0.75rem;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .toc-list a:hover {
+      color: var(--accent);
+      border-left-color: var(--accent);
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      font-weight: 500;
+      background: #f0efe9;
+      color: var(--text-muted);
+      padding: 0.25rem 0.65rem;
+      border-radius: 999px;
+    }
+
+    /* ===== Footer ===== */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      padding: 1.75rem 1.5rem;
+      margin-top: auto;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    .footer-inner a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+
+    .footer-inner a:hover {
+      color: var(--accent);
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 899px) {
+      .sidebar {
+        order: -1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark">C</span>
+        Catatan Blog
+      </a>
+      <nav class="nav">
+        <a href="#">Beranda</a>
+        <a href="#">Arsip</a>
+        <a href="#">Tentang</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">Catatan</span>
+      <h1 id="page-title">Memuat catatan…</h1>
+      <div class="hero-meta">
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <span id="page-date">—</span>
+        </span>
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          Markdown
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main layout -->
+  <div class="layout">
+    <main>
+      <article class="article-card">
+        <div class="article-body">
+          <div id="content">
+            <div class="loading">
+              <div class="spinner"></div>
+              <span>Memuat konten…</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <aside class="sidebar">
+      <div class="side-card">
+        <h3>Daftar Isi</h3>
+        <ul class="toc-list" id="toc">
+          <li style="color: var(--text-muted); font-size: 0.9rem;">Memuat…</li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>Tentang</h3>
+        <p>Halaman ini menampilkan catatan Markdown dalam tampilan blog yang rapi dan nyaman dibaca.</p>
+      </div>
+      <div class="side-card">
+        <h3>Tag</h3>
+        <div class="tag-list">
+          <span class="tag">catatan</span>
+          <span class="tag">markdown</span>
+          <span class="tag">blog</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Catatan Blog · Dibangun dengan Markdown</span>
+      <span>
+        <a href="#">Beranda</a> ·
+        <a href="#">Arsip</a> ·
+        <a href="#">Tentang</a>
+      </span>
+    </div>
+  </footer>
+
+  <script>
+    // Konfigurasi marked
+    marked.setOptions({
+      gfm: true,
+      breaks: true,
+      headerIds: true,
+      mangle: false
+    });
+
+    function formatDate(d) {
+      return d.toLocaleDateString('id-ID', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      });
+    }
+
+    function buildTOC(container) {
+      const headings = container.querySelectorAll('h1, h2, h3');
+      const toc = document.getElementById('toc');
+      toc.innerHTML = '';
+
+      if (headings.length === 0) {
+        toc.innerHTML = '<li style="color: var(--text-muted); font-size: 0.9rem;">Tidak ada heading</li>';
+        return;
+      }
+
+      headings.forEach((h, i) => {
+        if (!h.id) {
+          h.id = 'heading-' + i;
+        }
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.textContent = h.textContent;
+        if (h.tagName === 'H3') {
+          a.style.paddingLeft = '1.4rem';
+          a.style.fontSize = '0.85rem';
+        }
+        li.appendChild(a);
+        toc.appendChild(li);
+      });
+    }
+
+    function setTitleFromContent(container) {
+      const firstH1 = container.querySelector('h1');
+      const titleEl = document.getElementById('page-title');
+      if (firstH1) {
+        titleEl.textContent = firstH1.textContent;
+        // Optional: hide the first h1 inside content to avoid double title
+        // firstH1.style.display = 'none';
+      } else {
+        titleEl.textContent = 'Catatan';
+      }
+    }
+
+    // Load Markdown
+    fetch("/Catatan Buat.md")
+      .then(response => {
+        if (!response.ok) throw new Error('File tidak ditemukan (' + response.status + ')');
+        return response.text();
+      })
+      .then(text => {
+        const content = document.getElementById('content');
+        content.innerHTML = marked.parse(text);
+
+        setTitleFromContent(content);
+        buildTOC(content);
+
+        document.getElementById('page-date').textContent = formatDate(new Date());
+      })
+      .catch(err => {
+        document.getElementById('content').innerHTML =
+          '<div class="error"><strong>Gagal memuat file.</strong><br>' +
+          err.message +
+          '<br><br>Pastikan file <code>Catatan Buat.md</code> berada di folder yang sama.</div>';
+        document.getElementById('page-title').textContent = 'Error';
+        document.getElementById('toc').innerHTML =
+          '<li style="color: var(--text-muted); font-size: 0.9rem;">—</li>';
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Item_Name": "Video Asset Atago",
+    "Quantity": 5,
+    "No_Rak": 2,
+    "No_Gudang": 1,
+    "Jenis": "Video",
+    "Keterangan": "Kumpulan asset video karakter Atago"
+  },
+  {
+    "Id": 2,
+    "Item_Name": "Video Asset Formidable",
+    "Quantity": 3,
+    "No_Rak": 2,
+    "No_Gudang": 1,
+    "Jenis": "Video",
+    "Keterangan": "Asset HMS Formidable"
+  },
+  {
+    "Id": 3,
+    "Item_Name": "Video Asset St. Louis",
+    "Quantity": 5,
+    "No_Rak": 3,
+    "No_Gudang": 1,
+    "Jenis": "Video",
+    "Keterangan": "Variasi video St. Louis"
+  }
+]

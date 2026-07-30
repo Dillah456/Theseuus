@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Inventory Manager (Flask)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>📦 Inventory Manager</h1>
+
+<form id="inventoryForm">
+  <input type="text" id="Item_Name" placeholder="Nama Item" required>
+  <input type="number" id="Quantity" value="1" min="1">
+  <input type="number" id="No_Rak" placeholder="Rak" required>
+  <input type="number" id="No_Gudang" placeholder="Gudang" required>
+  <input type="text" id="Jenis" placeholder="Jenis" required>
+  <input type="text" id="Keterangan" placeholder="Keterangan">
+  <button type="submit">Tambah</button>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Item</th>
+      <th>Qty</th>
+      <th>Aksi</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

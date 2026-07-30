@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown Viewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <h2>Hasil dari Markdown:</h2>
+  <div id="content"></div>
+
+  <script>
+    // Load file Markdown eksternal
+    fetch("/Catatan Buat.md") // pastikan dokumen.md ada di folder yg sama
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById("content").innerHTML = marked.parse(text);
+      });
+  </script>
+</body>
+</html>

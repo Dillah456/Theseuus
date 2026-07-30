@@ -1,0 +1,1805 @@
+
+C:  \....\GitHub\Test\1_Project\Agenda.json
+C:  \....\GitHub\Test\1_Project\Custom Page
+C:  \....\GitHub\Test\1_Project\Executive_Report.json
+C:  \....\GitHub\Test\1_Project\Modulate
+C:  \....\GitHub\Test\1_Project\Periodic_Report.json
+C:  \....\GitHub\Test\1_Project\Redirect
+C:  \....\GitHub\Test\1_Project\Relik
+C:  \....\GitHub\Test\1_Project\Special_Report.json
+C:  \....\GitHub\Test\1_Project\Custom Page\Kronologi_1945.html
+C:  \....\GitHub\Test\1_Project\Custom Page\Redirect.html
+C:  \....\GitHub\Test\1_Project\Custom Page\sistem_inventaris_barang.html
+C:  \....\GitHub\Test\1_Project\Custom Page\supleapp.html
+C:  \....\GitHub\Test\1_Project\Modulate\Dzikr
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Javelin
+C:  \....\GitHub\Test\1_Project\Modulate\Photo Gallery
+C:  \....\GitHub\Test\1_Project\Modulate\Dzikr\dzikr.js
+C:  \....\GitHub\Test\1_Project\Modulate\Dzikr\dzikrv2.html
+C:  \....\GitHub\Test\1_Project\Modulate\Dzikr\index.html
+C:  \....\GitHub\Test\1_Project\Modulate\Dzikr\Info.html
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\app.py
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\firefly.md
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\Inventory.json
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\requirements.txt
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\static
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\templates
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\__pycache__
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\static\script.js
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\static\style.css
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\templates\index.html
+C:  \....\GitHub\Test\1_Project\Modulate\Firefly\__pycache__\app.cpython-313.pyc
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\css
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\index.html
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\js
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\mov
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\test.html
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\css\bootstrap.min.css
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\css\templatemo-video-catalog.css
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\css
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\LICENSE.txt
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\css\all.min.css
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.eot
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.svg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.ttf
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.woff
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.woff2
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.eot
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.svg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.ttf
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.woff
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.woff2
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.eot
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.svg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.ttf
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.woff
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.woff2
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\about-1.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\about-2.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\about-3.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\contact-1.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\contact-2.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\select-arrow.png
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\testimonial-1.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\testimonial-2.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\testimonial-3.png
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\testimonial-4.png
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\tn-01.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\tn-02.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\tn-03.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\tn-04.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\tn-05.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\tn-06.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\tn-07.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\tn-08.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\tn-09.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\img\video-detail-1.jpg
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\js\bootstrap.min.js
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\js\image_viewer.js
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\js\jquery-3.4.1.min.js
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\js\New folder
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\js\parallax.min.js
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\js\viewer.js
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Dido\mov\Screen Recording 2025-10-19 203636.mp4
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Javelin\Idea
+C:  \....\GitHub\Test\1_Project\Modulate\HMS-Javelin\Idea\Obsidian_SingleFile.html
+C:  \....\GitHub\Test\1_Project\Modulate\Photo Gallery\Asset
+C:  \....\GitHub\Test\1_Project\Modulate\Photo Gallery\Gallery.html
+C:  \....\GitHub\Test\1_Project\Modulate\Photo Gallery\Asset\js
+C:  \....\GitHub\Test\1_Project\Modulate\Photo Gallery\Asset\js\viewer.js
+C:  \....\GitHub\Test\1_Project\Redirect\House_5.html
+C:  \....\GitHub\Test\1_Project\Redirect\Redirect-Voiceline.html
+C:  \....\GitHub\Test\1_Project\Redirect\saldo-light.html
+C:  \....\GitHub\Test\1_Project\Redirect\saldo-malice.html
+C:  \....\GitHub\Test\1_Project\Redirect\saldo-multi.html
+C:  \....\GitHub\Test\1_Project\Redirect\txn-multi.html
+C:  \....\GitHub\Test\1_Project\Redirect\txn-sentiment.html
+C:  \....\GitHub\Test\1_Project\Redirect\txn-single.html
+C:  \....\GitHub\Test\1_Project\Redirect\V1-Update.html
+C:  \....\GitHub\Test\1_Project\Relik\data.json
+C:  \....\GitHub\Test\1_Project\Relik\GPT
+C:  \....\GitHub\Test\1_Project\Relik\Me
+C:  \....\GitHub\Test\1_Project\Relik\server.js
+C:  \....\GitHub\Test\1_Project\Relik\TestGround
+C:  \....\GitHub\Test\1_Project\Relik\V1-Update.html
+C:  \....\GitHub\Test\1_Project\Relik\GPT\Regulus.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\HMS-Dido
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31
+C:  \....\GitHub\Test\1_Project\Relik\Me\Relik
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618
+C:  \....\GitHub\Test\1_Project\Relik\Me\HMS-Dido\dido.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\HMS-Dido\main.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\assets
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\Boreas.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\index.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\main.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\Messier31.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\Regulus.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\assets\js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\assets\js\Boreas.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\assets\js\Regulus.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\assets\js\Rigel.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\assets\js\Sertan.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Messier31\assets\js\Tarf.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Relik\Hells_Gauntlet.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HV121
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\MEEF.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\error_log
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Gungnir.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Amiya.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Chapayev_Quotes_Full.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\eyjafjalla_dialogue.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Ganyu.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\index.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Kama.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Miyo_Sakurai.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\New_Jersey.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Noa-Pajama.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Noa.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Rio.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Rio_Battle.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Shun.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Sorasaki-Hina.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\St_Louis_Quotes_Full.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Warspite.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Z23.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Himari.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Hina.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Miyako.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Noa.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Nonomi.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\.htaccess
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Albiero.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\altair.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\anka.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Antares.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\constra-1.0.0.zip
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\data
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\error_log
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\hunt_gather.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\hunt_input.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\inventory-db.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Link.json
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\pixiv_extractor.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Pollux.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Sirius.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\data\ability_modifier.json
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\data\session-chracter-pocket.json
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\data\session-market.json
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\error_log
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\index.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\Intertransaction-v2.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\InterTransaction.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\Pollux.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\Spica-Optimist.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\Spica-Pesimist.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\transaction.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\XGF34.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\HV121\Redirect1.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\index.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\input_cornell.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\list_cornell.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\about.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\contact.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\fonts
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\index.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\service.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\alternate.css
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\bootstrap.css
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\font-awesome.min.css
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\responsive.css
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\style.css
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\style.css.map
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\style.scss
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\fonts\fontawesome-webfont.ttf
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\fonts\fontawesome-webfont.woff
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\fonts\fontawesome-webfont.woff2
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\about-img.jpg
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\client-1.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\client-2.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\fevicon.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\next.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\prev.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\s1.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\s2.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\s3.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\s4.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\slider-bg.jpg
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\track-bg.jpg
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\js\bootstrap.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\js\custom.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\Asset\js\jquery-3.4.1.min.js
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Achernar.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Alya.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\asosiasi_oortmyid.json
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Diphda.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\E0.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\error_log
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\formalhault.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\get_nama_list.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\illust_67847889_20220528_154725 copy.png
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\illust_86200817_20230725_203740.jpg
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Mimosa.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Mimosa.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Percobaan.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\PG1159.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Pollux.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\R71.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\R71.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Sirius.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Spica.html
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Spica.php
+C:  \....\GitHub\Test\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\XGF34.php
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\event-identity.html
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\event-social.html
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\Oort
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\private.html
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\profil-altair-test2.html
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\profil-altair.html
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\public.html
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\restricted.html
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\Test-F.html
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\Oort\index.html
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\Oort\package.json
+C:  \....\GitHub\Test\1_Project\Relik\TestGround\Oort\server.js
+
+C:  \....\\GitHub\Theseus\1_Proyek\2d20-manual-dashboard.html
+C:  \....\\GitHub\Theseus\1_Proyek\2d20-rejection-dashboard.html
+C:  \....\\GitHub\Theseus\1_Proyek\Data Area
+C:  \....\\GitHub\Theseus\1_Proyek\Fleeting Notes Area
+C:  \....\\GitHub\Theseus\1_Proyek\Kronologi_1945.html
+C:  \....\\GitHub\Theseus\1_Proyek\Privaty.html
+C:  \....\\GitHub\Theseus\1_Proyek\Project.md
+C:  \....\\GitHub\Theseus\1_Proyek\Redirect.html
+C:  \....\\GitHub\Theseus\1_Proyek\sistem_inventaris_barang.html
+C:  \....\\GitHub\Theseus\1_Proyek\supleapp.html
+C:  \....\\GitHub\Theseus\1_Proyek\Data Area\Apa itu AJAX.md
+C:  \....\\GitHub\Theseus\1_Proyek\Data Area\Ruminate - Google Spreadsheet.pdf
+C:  \....\\GitHub\Theseus\1_Proyek\Fleeting Notes Area\Log Book
+C:  \....\\GitHub\Theseus\1_Proyek\Fleeting Notes Area\Log Book\Analisa Transaksi Mental - Oort Beta.md
+C:  \....\\GitHub\Theseus\1_Proyek\Fleeting Notes Area\Log Book\Catatan Diary Juli.md
+C:  \....\\GitHub\Theseus\1_Proyek\Fleeting Notes Area\Log Book\FA21.md
+C:  \....\\GitHub\Theseus\1_Proyek\Fleeting Notes Area\Log Book\Finalize Integration.md
+C:  \....\\GitHub\Theseus\1_Proyek\Fleeting Notes Area\Log Book\MFXA.md
+C:  \....\\GitHub\Theseus\1_Proyek\Fleeting Notes Area\Log Book\OBS Transaksi Entitas.md
+C:  \....\\GitHub\Theseus\1_Proyek\Fleeting Notes Area\Log Book\Start.md
+C:  \....\\GitHub\Theseus\2_Area\Jastip, Reseller
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas
+C:  \....\\GitHub\Theseus\2_Area\Jastip, Reseller\Marketing 3.0 - Philip Kotler.md
+C:  \....\\GitHub\Theseus\2_Area\Jastip, Reseller\Marketing 4.0 - Philip Kotler.md
+C:  \....\\GitHub\Theseus\2_Area\Jastip, Reseller\Marketing 5.0 - Philip Kotler.md
+C:  \....\\GitHub\Theseus\2_Area\Jastip, Reseller\Marketing 6.0 - Philip Kotler.md
+C:  \....\\GitHub\Theseus\2_Area\Jastip, Reseller\MF-A5DA.md
+C:  \....\\GitHub\Theseus\2_Area\Jastip, Reseller\Permasalahan 1, Scalper.md
+C:  \....\\GitHub\Theseus\2_Area\Jastip, Reseller\Proposal Bisnis.md
+C:  \....\\GitHub\Theseus\2_Area\Jastip, Reseller\Self Note.md
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\20260303140803-2026-03-03a_dokumen_transparansi140752.pdf
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\analisis-sq3r-cibadak-dalam-angka-2025.md
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\analisis-sq3r-dokumen-transparansi-renstra-cibadak.md
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\Data Untuk Proposal.md
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\kecamatan-cibadak-dalam-angka-2025.pdf
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\KPI Manajemen Sampah.md
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\Pengkajian Proposal.md
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\Sumber Mukaddimah
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\Sumber Mukaddimah\Sumber Mukaddimah - 1.md
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\Sumber Mukaddimah\Sumber Mukaddimah - 2.md
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\Sumber Mukaddimah\Sumber Mukaddimah - 3.md
+C:  \....\\GitHub\Theseus\2_Area\Permohononan Bantuan dana RW17 - Baznas\Sumber Mukaddimah\Sumber Mukaddimah - 4.md
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR
+C:  \....\\GitHub\Theseus\3_Resource\Konsep Doa Apud
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran
+C:  \....\\GitHub\Theseus\3_Resource\NPWP-ELEKTRONIK.pdf
+C:  \....\\GitHub\Theseus\3_Resource\Resourcing.md
+C:  \....\\GitHub\Theseus\3_Resource\Tujuan Theseus.md
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Java_Script
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Test
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\try.js
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Java_Script\index.html
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Java_Script\index.js
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Java_Script\Pertemuan2.html
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Java_Script\Pertemuan2.js
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Java_Script\style.css
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Test\Flow.html
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Test\index.html
+C:  \....\\GitHub\Theseus\3_Resource\BroCode_Tutorial\Test\proses.php
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\AADAABUD DUa.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Buku Dzikir Wirid Book
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\DAHSYATNYA KEKUATAN DOA.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\doa.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\DZIKIR DALAM ALQURAN.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir dan Syukur yang Sebenarnya.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\DZIKIR DAN TASBIH MENURUT AL QUR.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\DZIKIR SAAT BERAKTIFITAS.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\DZIKIR utama.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Kantor, Jalan Pasar
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Masjid
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\DZIKIR YANG PALING UTAMA.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\DZIKIR.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Fatwa-Tarjih-Muhammadiyah-Lafadz-Doa-Sesudah-Khutbah-Kedua-tarjihmuhammadiyah.blogspot.com_.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\IKHTILAF DZIKIR JAHAR DAN SIR.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\KUMPULAN DOA BERDASARKAN HADIST.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\LATIHAN DZIKIR QOLBU DENGAN TEKNIK PERNAPASAN.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\LATIHAN DZIKIR QOLBU.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\majelis dzikir Oleh Ustadz Abu Isma.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\MANA YANG LEBIH UTAMA tahajjud.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Membiasakan Memulai Dengan BISMILLAH.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Memohon Pengampunan dan Mendapatkan Rahmat Allah SWT.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Merubah doa.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Misteri doa mustajab di hari Jum.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Pada hakikatnya membaca takbir adalah sebagian dari bentuk dzikir.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Penjelasan ahir Doa.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Penjelasan Doa.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\REFERENSI HADITS DOA.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\sedikit penjelasan beberapa istilah dzikir.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Tidur Dengan Telungkup.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\100Sunnah.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\1227-4318-1-SM Hadis hukum dalam kehidupan global.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\172-344-1-SM Ingkarus Sunnah.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\24 Jam Dzikir & Doa Rasulullah - OK2.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\AMALAN QIYAMULLAIL.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Analis Hadits.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Cara Mendapatkan Rezeki Tak Terduga.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Detik.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Doa Mohon Curahan Rahmat Dan Ampunan.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Doa Nabi.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Doc3.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\DZIKIR DAN DOA SEORANG MUSLIM.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Hadis 40.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\HADITS AL-BUKHARI TENTANG AQIQAH.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\id_forty_hadith_of_nawawi.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\id_hisn_almuslim.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Kaedah Penting dalam Memahami Al Qur.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Kesehatan dan pengebotan dalam tradisi islam.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Klasifikasi Science menurut al ghazali.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\MengenalKitab Sunnah AtTirmidzi.pdf
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Sunah.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Assunnah dan Doa\Syarah Doa dan Dzikir.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Berdoa Hajat
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Bismillahir Rahmanir Rahim.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Inilah 6 Manfaat Tidur Malam Lebih Awal.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\KEUTAMAAN AYAT KURSI.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Keutamaan Berdzikir.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\LAFADZ PENUTUP DOA.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Membuat Majlis Ilmu dan Dzikir.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Mengangkat Tangan Ketika Berdoa.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Mengangkat Tangan.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Mengeraskan Suara pada Dzikir Sesudah Shalat.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\MENGHADIAHKAN PAHALA ZIKIR KEPADA KEDUA ORANG TUA.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Pengertian Wirid dan Manfaatnya.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\PERINTAH DZIKIR DAN DO.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\PERINTAH DZIKIR.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Tayamun shalat dzikir.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Teknis berkumpul DOA SETELAH BACA QURAN DAN MAJLIS .doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Teknologi Zikir Hiper Metafizik.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Terbangun Tengah Malam.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Ternyata doa buka.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\Ternyata Tahlilan.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Berdoa, Amal dan Syukur\ZIKIR DALAM THAREQAT.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Buku Dzikir Wirid Book\dzikir-menurut-al-quran-dan-as-sunnah.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Buku Dzikir Wirid Book\fadhilah-dzikir-dan-doa.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Masjid\Allah Mengampuni Setiap Dosa.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Masjid\DZIKIR DI MASJID.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Masjid\Dzikir setelah shalat pardlu.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Masjid\Keberkahan di Waktu Pagi.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Masjid\Wirid Setelah Shalat nu.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Masjid\Zikir Setelah Shalat Fardhu.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\AHLAK DI RUMAH.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Masuk Kamar Tidur
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Memasuki Malam
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Pagi Hari dan Sore Hari
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Masuk Kamar Tidur\2. TIDUR DALAM TATANAN SUNNAH.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Masuk Kamar Tidur\Ada beberapa waktu utama membaca ayat kursi.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Masuk Kamar Tidur\Adab sebelum tidur.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Masuk Kamar Tidur\Doa Ketika Akan Tidur Keterangan hadits.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Masuk Kamar Tidur\Inilah Kebiasaan Makan dan Minum Nabi Muhammad yang Terbukti Menyehatkan.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Masuk Kamar Tidur\Tidur Dengan Bertumpu Lambung Sebelah Kanan hadits.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Masuk Kamar Tidur\Tidur Dengan Telungkup.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Masuk Kamar Tidur\Wudhu dan Tata Caranya.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Memasuki Malam\Beberapa Akibat Karena Sibuk Bekerja.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Memasuki Malam\Beberapa Sunnah Nabi Di Waktu Maghrib.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Memasuki Malam\Dalil.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Memasuki Malam\Dianjurkan Menutup Pintu OK.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Memasuki Malam\Korupsi Wakt1.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Memasuki Malam\Meninggalkan Syubha1.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Memasuki Malam\Motivasi Kerja Dalam Islam.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Memasuki Malam\Ust.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Pagi Hari dan Sore Hari\3. Menjaga Kebersihan dan Air yang mensucikan.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Pagi Hari dan Sore Hari\Dzikir Pagi dan Petang Sesuai As.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Pagi Hari dan Sore Hari\Dzikir Pagi dan Petang Sesuai Tuntunan Rasulullah Serta.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Pagi Hari dan Sore Hari\Dzikir Pagi dan Petang.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Pagi Hari dan Sore Hari\Dzikir Pagi.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\Dzikir Wirid Di Rumah\Akhlak Pagi Hari dan Sore Hari\Home.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\Amalan Dzikir di Pagi Hari menurut Hadits.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\AMALAN SUNNAH DI WAKTU PAGI.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\ARTI DAN PENGERTIAN SHALAT (Autosaved).docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\Bacaan Orang yang Masuk Wc.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\buku doa pagi sore.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\Dalil Tatacara Shalat.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\DOA DAN WIRID SESUDAH SHALAT.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\Dzikir sesudah shalat.docx
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\dzikir-menurut-al-quran-dan-as-sunnah.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\majelis dzikir Oleh Ustadz Abu Isma bb.doc
+C:  \....\\GitHub\Theseus\3_Resource\dZIKIR\New folder\بAdab berdoa.docx
+C:  \....\\GitHub\Theseus\3_Resource\Konsep Doa Apud\4.1 Tambih umur Pak Kadis.pdf
+C:  \....\\GitHub\Theseus\3_Resource\Konsep Doa Apud\Syarah Doa dan Dzikir.doc
+C:  \....\\GitHub\Theseus\3_Resource\Konsep Doa Apud\Tutunan Dzikir dan Dua harian.docx
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\3.1 Mengenal Arsip dan Kearsipan.pdf
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\3.2 BAB 2 MENYUSUN STANDAR, PROSEDUR, DAN KRITERIA KEARSIPAN..pdf
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\3.3 MENGGUNAKAN PERALATAN KEARSIPAN.pdf
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\3.3 MENGGUNAKAN PERALATAN KEARSIPAN.pptx
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\3.4 PENANGAN SURAT MASUK MELALUI BUKU AGENDA.pdf
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\3.6 MELAKUKAN KLASIFIKASI DAN INDEKS ARSIP PART 1.pdf
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\3.7 Dokumen Berbasis Digital.pdf
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\Dokumen Berbasis Digital.pptx
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\Mengenal Arsip dan Kearsipan.pptx
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\Progres UAS PBO.docx
+C:  \....\\GitHub\Theseus\3_Resource\Manajemen Perkantoran\WhatsApp Image 2025-03-30 at 22.50.41_f43ee5c4.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026
+C:  \....\\GitHub\Theseus\4_Archive\Obsidian Tutorial
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026
+C:  \....\\GitHub\Theseus\4_Archive\UMMI
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Flask Python
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Jan - 29 - 2026.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Mikrokontroller.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Node JS
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Perbandingan server.js dan http-server.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Symbolic Link.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025\Java_Script
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025\Test
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025\Java_Script\index.html
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025\Java_Script\index.js
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025\Java_Script\Pertemuan2.html
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025\Java_Script\Pertemuan2.js
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025\Java_Script\style.css
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025\Test\index.html
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\BroCode_Tutorial - 2025\Test\proses.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Data Analyst.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Data Science
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Jenis Data Mining.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Modularitas Python.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Offline.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\praktik ML
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Python + API.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Source Data.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Data Science\Belajar Dasar Ai.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Data Science\Dasar Data Science.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Data Science\Dasar SQL.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\Data Science\Python.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Data Analyst\praktik ML\Tanpa judul.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Flask Python\Contoh Proyek Flask.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Flask Python\Dasar Kode Flask.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Flask Python\Flask.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Flask Python\Interaksi Kode.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Flask Python\Pasted image 20260303233641.png
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Flask Python\UML.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Node JS\Kebutuhan.md
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\config.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivBehaviorHealth.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivCognitive.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivDataScience.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivEkonomi.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivExecutive.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivHumanDev.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivInfrasture.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivInnovation.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\Divknowledge.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivReligion.php
+C:  \....\\GitHub\Theseus\4_Archive\Belajar Pemprograman - 2026\Proyek Divisional\DivSocial.php
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Map Of Content KP.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\RunDown KP.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Surat_KP_020_2330511060.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Surat_KP_043_2330511060.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Diskusi Perihal Database.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\juz_quran_with_pages.xlsx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Pasted image 20260422093230.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Pasted image 20260422093325.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Perancangan Database.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Controller
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Model
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Controller\AuthController.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Controller\Dashboard.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Controller\Hafalan.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Controller\Laporan.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Controller\Login.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Controller\Santri.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Model\Authmodel.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Model\HafalanModel.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Model\LaporanModel.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Model\LogImportModel.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Model\PenilaianModel.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Model\SantriModel.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\Model\UserModel.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Dashboard.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Hafalan.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Laporan.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Layout
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\login.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Refactor
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Santri.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Layout\auth.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Layout\main.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Refactor\View-Laporan-index.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Al-Umanaa\Studi\View\Refactor\View-Laporan-print.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab_4_1.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab_4_2-1.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab_4_2-2.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab_4_2-2_compressed.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab_4_2.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab_4_3.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab_4_4.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Dokumentasi 2020.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Final-KP.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Final-KP2.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Format Kata Pengantar.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Hasil.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Kerja Praktik
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Laporan
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Lembar Pengesahan.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Log
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Perencanaan.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Sosialisasi
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Studi Pustaka
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Tanpa judul.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\TEMPLATE LAPORAN KERJA PRAKTIK-VERSI 2.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Web
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\amirudin.ris
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\booch.ris
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\conolly.ris
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Gambar
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Laporan-Rev 2-2-2026.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Laporan-Sesuai-Template.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\pressman.ris
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\sdlcwaterfall.ris
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\sommerville2016.ris
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Gambar\Pasted image 20260205085150.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Gambar\Pasted image 20260205085401.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Gambar\Pasted image 20260205090158.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Gambar\Pasted image 20260205091135.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Gambar\Pasted image 20260205093022.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Gambar\Pasted image 20260205093729.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Gambar\Pasted image 20260216094311.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal\2132-3628-1-SM.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal\4311-11877-1-PB.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal\Alpenast.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal\Dokumen KP2025-2026.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal\Dokumentasi Untuk Teman teman.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal\E-Book Metodologi Penelitian Syafrida.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal\Experimen.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal\Panduan Macro Excel untuk membuat Aplikasi RAB Bangunan.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Arsip\Jurnal\SISTEM PENGELOLAAN NILAI RAPOR MENGGUNAKAN APLIKASI MICROSOFT EXCEL BERBASIS VBA (VISUAL BASIC FOR APPLICATIONS) DI SMKN 1 PALASAH.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\BAB IV KP.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\BAB_IV_KP_lengkap.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Dokumen Analisis Kebutuhan Sistem (1).pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Draft Bab 4.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Draft Bab 4.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\TEMPLATE LAPORAN KERJA PRAKTIK-VERSI 2.docx - Google Dokumen.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\_extract_bab4.txt
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\_extract_Dokumen Analisis Keb.txt
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\_extract_TEMPLATE LAPORAN KER.txt
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\MockUp
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\MockUp\KP-MockUp-Dashboard.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\MockUp\KP-MockUp-DataSantri.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\MockUp\KP-MockUp-DetailTahfiz.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\MockUp\KP-Mockup-Login.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\MockUp\KP-MockUp-RiwayatHafalan.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\Acitvity_Auth.drawio.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\ActivityDashboard.drawio.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\ActivityExport.drawio.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\ActivityHafalan-Interaksi.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\ActivityHafalan-Prefil.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\ActivityLaporan.drawio.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\ActivitySantri.drawio.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\SD_01_Login.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\SD_02_Setor_Hafalan.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\SD_03_Penilaian.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\SD_04_Laporan.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\SD_05_Admin_Dashboard.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\SD_06_Admin_Santri.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\SD_07_Admin_Export.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\UML\UML-KP-Class.drawio.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Fina;-TambahLaporan.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-Dashboard.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-DataHafalan.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-DataSantri.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-DetailDataSantri.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-DetailHafalan.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-DetailSantriPage.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-EditDataSantri.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-EditHafalan.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-ExportPage.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-LaporanPage.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Bab 4\Web\WebFinal\Final-TambahHalaman.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Kerja Praktik\371. SURAT BALASAN.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Kerja Praktik\Surat_KP_020_2330511060 (1).pdf
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Laporan\1. Cover + Bab _5.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Laporan\2. Bab_1.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Laporan\3. Bab_2.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Laporan\4. Bab_3.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Laporan\5. Bab_4.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Laporan\6. Bab_5.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Laporan\Full Docs.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Laporan\NILAI PEMBIMBINGAN DARI TEMPAT KP.docx
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Log\AnalisaMVC.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Log\Lis.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Log\List Masalah.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Log\Log Perbaikan.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Log\Screenshot 2025-12-06 111909.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Log\View.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Sosialisasi\Bab 2.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Sosialisasi\Bab 3.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Sosialisasi\Pasted image 20260216095133.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Studi Pustaka\Evaluasi Pembelajaran.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Studi Pustaka\Manajemen Penelitian.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Studi Pustaka\Pasted image 20251214084829.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Studi Pustaka\Pasted image 20260203141507.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Studi Pustaka\Pengembangan E-Learning Teori dan Desain.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Studi Pustaka\Perencanaan Pembelajaran.md
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Web\WebFinal
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Web\WebFinal\Final-DataHafalan.png
+C:  \....\\GitHub\Theseus\4_Archive\Kegiatan Kerja Praktik - 2026\Kerja Praktik\Web\WebFinal\Screenshot 2026-06-18 162939.png
+C:  \....\\GitHub\Theseus\4_Archive\Obsidian Tutorial\Functions.md
+C:  \....\\GitHub\Theseus\4_Archive\Obsidian Tutorial\Link Inside.md
+C:  \....\\GitHub\Theseus\4_Archive\Obsidian Tutorial\List.md
+C:  \....\\GitHub\Theseus\4_Archive\Obsidian Tutorial\Note taking with Obsidian.md
+C:  \....\\GitHub\Theseus\4_Archive\Obsidian Tutorial\Style.md
+C:  \....\\GitHub\Theseus\4_Archive\Obsidian Tutorial\View.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bapak
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bapak\Bukti-Pembayan-PPH-Tahunan.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bapak\Bukti-Penerimaan-Surat.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bapak\PIT_M_03-DOC010_Personal_Income_Tax_Return_2506_ID-fo-xsl_DN2026639111118410340998000.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bapak\PPH-Pribadi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bapak\Surat-Penerbitan-KodeOtorisasi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bapak\table.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Baru
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Buku
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Draft
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Jurnal
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Map Of Content KP.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Materi Pembuka
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Politik
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Proposal
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Baru\Bidang Dan Topik.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Baru\Draft.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Baru\Perbandingan
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Baru\Perbandingan\Perbandingan RPS 1.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Baru\Perbandingan\Perbandingan RPS 2.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Baru\Perbandingan\Perbandingan RPS 3.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Buku\Modelling hydrology, hydraulics and contaminant transport -- Dhrubajyoti Sen; Soumendra Nath Kuiry -- ( WeLib.org ).pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Buku\Principles of River Hydraulics -- Aronne Armanini (auth.) -- ( WeLib.org ).pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Buku\Principles of River Hydraulics.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Buku\River Hydraulics- Hydraulics, Water Resources and Coastal -- Ramakar Jha;V. P. Singh;Vivekanand Singh;L. B. Roy;Roshni -- ( WeLib.org ).pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Buku\Sumber 2.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Draft\Sumber.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Jurnal\1092-2947-1-PB.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Jurnal\7201-13698-1-SM.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Jurnal\88.+Revisi+Jurnal+Ayu+Annisa+Febryana.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Jurnal\e76e3_Modul_3_Hidrologi__Hidrolika_Sungai_dan_Air_Tanah.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Jurnal\PESHUM+45+(Yunita+Windriana,+Nizar+Naufal+Khoiriyah,+Bambang+Arwanto).pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Jurnal\REPOSITORY_MAHARANI.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Materi Pembuka\Keilmuan dalam Normalisasi Sungai.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Materi Pembuka\Normalisasi Sungai.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Politik\Obsrvasi Partai.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Politik\Pasted image 20260522193838.png
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Politik\Struktur PNS.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Proposal\Cover
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Bina Marga\Proposal\Draft
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak\Bukti Pemotongan Anggaran (BPA2)
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak\Informasi.md
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak\Bukti Pemotongan Anggaran (BPA2)\21012026
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak\Bukti Pemotongan Anggaran (BPA2)\27012026
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak\Bukti Pemotongan Anggaran (BPA2)\21012026\M_01-DOC002_Ebupot_2126_English_BPA2_id-fo-xsl_DN2026639045767709724086000 - 21012026.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak\Bukti Pemotongan Anggaran (BPA2)\21012026\M_01-DOC002_Ebupot_2126_English_BPA2_id-fo-xsl_DN2026639045767709724086000.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak\Bukti Pemotongan Anggaran (BPA2)\27012026\M_01-DOC002_Ebupot_2126_English_BPA2_id-fo-xsl_DN2026639051214410626566000 - 27012026.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pembidangan - 2026\Pajak\Bukti Pemotongan Anggaran (BPA2)\27012026\M_01-DOC002_Ebupot_2126_English_BPA2_id-fo-xsl_DN2026639051214410626566000.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\As.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Semantic_Psychological_Mapping.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Singularity
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Web.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Journaling Emosi.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Konten
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Konten Blogger
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Perbaikan Portofolio Keuangan.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Rundown PSBM.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Konten Blogger\21 Juni 2026.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Konten Blogger\22 Juni 2026.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Konten Blogger\Screenshot 2026-04-26 201053.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Konten Blogger\Screenshot 2026-04-26 201109.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\.obsidian
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2026
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Growth Report.xlsx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Materi
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\PesonaSukabumi.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Surat
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\SURAT PERJANJIAN KOMITMEN_PESONA SUKABUMI.docx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\.obsidian\app.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\.obsidian\appearance.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\.obsidian\core-plugins.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\.obsidian\graph.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\.obsidian\workspace.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025\30 Mei 2025.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025\cara_mudah_membuat_rekening_perusahaan_2016JunTue09532199078.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025\Contoh Lembar Kerja.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025\FORM CV.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025\Integrasi Ulang data.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025\Jurnalis.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025\Pendaftaran komponen SOP ( Draft, Belum di spesifikasi ).pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025\Pesona Sukabumi.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2025\Review.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2026\Pembuatan CV.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2026\Rekap Konten.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2026\Repositories ArduSatoru.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\2026\Tubulasi R&D.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Materi\Dwi Melinda Putri_2207861_Logbook Ekologi Keluarga.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Materi\Logo Pesona Sukabumi_Warna_PNG.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Materi\WhatsApp Image 2024-10-08 at 20.48.15_0f87a2a5.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Materi\WhatsApp Image 2024-10-08 at 20.48.16_02350aea.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Materi\WhatsApp Image 2024-10-08 at 22.03.35_7e760940.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Bahan
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Draft BAB II & III.docx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Laporan Ai.docx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Laporan PCD.docx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Bahan\Dispar Sebut Kunjungan Wisatawan ke Sukabumi Meningkat hingga 26%.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Bahan\Manajemen Pemasaran Pendekatan praktis.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Bahan\Pasted image 20260117192425.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Bahan\Peningkatan Jumlah Wisatawan ke Geopark Ciletuh Capai 30 Persen.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Bahan\Review Buku, Pemasaran Pariwisata.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Pesona\Bahan\Sempat Anjlok di Libur Akhir Tahun 2024, Kini Kunjungan Wisatawan di Sukabumi Melonjak.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Surat\SURAT TUGAS.docx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Agenda Harian\Pesona Sukabumi\Surat\SuratTugas001STPSVI2025.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\4 Contoh Program Kerja Sederhana dan Jenisnya Template.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Dokumen Non-R
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Islam
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\MapOfContent.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Review_Buku
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Dokumen Non-R\Blue & White Modern Annual Report Book Cover_20250430_111320_0000.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Dokumen Non-R\Isu.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Dokumen Non-R\Relik P2MW.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Dokumen Non-R\Relik.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Islam\05082025.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Islam\Membiasakan Sunnah Seolah Ibadah Wajib.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Islam\Pandangan Islam Terhadap Otaku.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\0.Journaling.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Dicoding
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Elektronika.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Journaling.rar
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Kelompok Sosial.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\New Text Document.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Organisasi Komputer.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Organisasi.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Pengantar Teknologi.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\RAMADHAN.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Ringkasan Kompleksitas Algoritma.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Shalat.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Struktur Data.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\Bare Metal Programing.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\JSON
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\Lesson Planer.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\Materi API CI4.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\Mayer.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\Nginx - SetUp.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\Project Planer.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\SQL.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\JSON\Handling JSON pada Express.js.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\JSON\Handling JSON pada Python.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\JSON\Handling JSON.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\JSON\JSON JS.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Belajar\JSON\JSON.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Dicoding\PT1_1.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\android-studio-2024.3.1.14-windows.exe
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Divisi_Cabang_Filsafat_Updated.xlsx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Formulir_Lamaran_Kerja_Siloam.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\mi_phone_assistant_4.2.1028.10_setup
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Packet_Tracer822_64bit_setup_signed.exe
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\pertemuan-1-pendahuluanpdf-1741932955.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\pertemuan-2-3-mengenal-tag-element-atributpdf-1741932979.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\pertemuan-4-5-link-dan-navigation-copypdf-1742522344.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\mi_phone_assistant_4.2.1028.10_setup\mi_phone_assistant_4.2.1028.10_setup.exe
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\aplikasi bank sampah berbasis web_20250123_223610_0000.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\arqam1975,+1.+Ilmu+Hukum+Dalam+Pusaran++Perkembangan+Ilmu+Pengetahuan+(Bambang+Sugiri).pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\p1-2-pengenalanpdf-1742394096.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\pertemuan-4-5-link-dan-navigation-copypdf-1742522344.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\rps-kompleksitas-obepdf-1742393991.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\Surat Edaran Kepala LKPP Nomor 8 Tahun 2024_2579_1.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.46_8192afaf.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.47_2c9067b0.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.47_3f3cc684.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.47_e02d921c.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.48_27899c9c.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.48_82ccccc8.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.49_11679cf2.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.49_4effb606.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.49_d8ab0516.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Download\Whastapp\WhatsApp Image 2025-02-02 at 12.57.50_c31a856c.jpg
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623061439.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623064615.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623065154.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623065246.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623065334.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623065529.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623070108.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623071411.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623071502.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623072036.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623072202.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623100133.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623100153.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623141326.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623141508.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623141702.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623141730.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Unity\Pasted image 20240623141802.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\.obsidian
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\01222025.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\02042025.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\02192025.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\02222025.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\09221446.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\09251446.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\10101446.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\114-Article Text-448-2-10-20221228.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\40-Hadits-Tentang-Akhlak_Abu-Ubaidah-Yusuf.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\.obsidian\app.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\.obsidian\appearance.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\.obsidian\core-plugins.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Journaling\Whastapp Bapak\.obsidian\workspace.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Artikel\Review_Buku\Building a Second Brain ( The Definitive Introductory Guide ).md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\BCyg-A.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\BCyg-B.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\District 18
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Draft 05072025.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Ego Death.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Flustern Geheim.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\GJ3991.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\HV121.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\JSON XANO.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Konten
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\LP658-2.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\LP658-2@2nd.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\MFD05-Perseid.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\New folder
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Oort
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Pasted image 20260504194054.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Pasted image 20260504194344.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Pasted image 20260504195220.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Pasted image 20260504201359.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Saule 1.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Tanpa judul.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\District 18\D18A2.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Konten\04142026.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Konten\Alya.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Konten\Dokumentasi Program Canopus.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Konten\Dokumentasi-04122026.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Konten\GHF43.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Konten\Hard Reset.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Konten\Polaris-1.png
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Later
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Epsilon
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\True Theseus.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\.obsidian
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Administration Failure (story) Counter Side Wiki Fandom.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\CC.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\G424
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\GNDM
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Hit Points and Hit Dice.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Prolog.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Qliphoth Game Counter Side Wiki Fandom.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Thousand Face.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\_DnD_Armor.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\_DnD_Spell.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\_DnD_Weapon damage.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\.obsidian\app.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\.obsidian\appearance.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\.obsidian\core-plugins.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\.obsidian\graph.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\.obsidian\workspace.json
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\FFNF Surcouf.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\HMS Belfast.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\HMS Cheshire.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\HMS Plymouth.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\HMS Rodney.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Amagi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Atago.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Hakuryuu.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Kaga CV.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Kashino.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Musashi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Owari.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Shimanto.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Shinano.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Taihou.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Takao.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\IJN Unzen.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\KMS Agir.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\KMS Bismarck.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\KMS Bismark-Zwei.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\KMS Hinddenburg.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\KMS Leipzig.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\KMS Nurnberg.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\KMS Regensburg.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\MOT Golden Hind.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\MOT Mary Celeste.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\MOT Sao Martinho.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\SN Chapayev.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\SN Gangut.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\SN Tallin.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\USS Anchorage.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\USS Bremerton.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Azurelane\USS New Jersey.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Abydoss-Hoshino.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Abydoss-Nonomi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Abydoss-Shiroko.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Gehenna-Ako.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Gehenna-Aru.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Gehenna-Fuuka.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Gehenna-Haruna.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Gehenna-Mutsuki.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Hyakkiyako-Kikyou.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Hyakkiyako-Mimori.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Hyakkiyako-Tsubaki.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Hyakkiyako-Wakamo.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Millenium-Eimi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Millenium-Himari.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Millenium-Noa.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Millenium-Toki.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Millenium-Tsukatsuki RIo.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Millenium-Yuuka.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Sakugawa-Saten Ruiko.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Shanhajing-Kokona.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Shanhajing-Shun.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\SRT-Miyako.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\SRT-Miyu.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\SRT-Moe.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\SRT-Saki.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Tokiwadai-MisakaMikoto.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Tokiwadai-Shokuhou Misaki.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Trinity-Hanako.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Trinity-Hasumi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Trinity-Ichika.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Trinity-Mari.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Trinity-Mine.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Trinity-Nagisa.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\Bluearchive\Trinity-Serina.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\G424\ArcturusD13.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\G424\ArcturusD16.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\GNDM\Biscuit Griffon _ The Gundam Wiki _ Fandom.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\GNDM\Dexter Culastor _ The Gundam Wiki _ Fandom.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\GNDM\Eugene Sevenstark _ The Gundam Wiki _ Fandom.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\GNDM\Mikazuki Augus _ The Gundam Wiki _ Fandom.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\GNDM\Naze Turbine _ The Gundam Wiki _ Fandom.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\GNDM\Orga Itsuka _ The Gundam Wiki _ Fandom.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\7523-25662-1-PB.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\84-167-1-SM.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\BAB%201%20-%20MA%20B%20Indo%20Kls%205%20(DICARIGURU.COM).docx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\BAB%201%20-%20MA%20Matematika%20Kls%205%20(DICARIGURU.COM).docx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\BESARAN, SATUAN DAN PENGUKURAN.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\C.CheatSheet.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Dokumen
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Dokumen.docx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Faitjal.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Gallery
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\MENGENAL BIOS.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Office Lens
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ppm-katalisator.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Python-Cheat-Sheet.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\SIMAK.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Gallery\Bilangan Kuantum.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Gallery\Konfigurasi elektron Aufbau.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Gallery\Konfigurasi Elektron Ion.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Gallery\PDF Gallery_20211023_062719.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Gallery\PDF Gallery_20231003_095852.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Gallery\Persamaan Linear Satu Variabel.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Gallery\Pertumbuhan dan Perkembangan.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Gallery\Ruang guru,  Organtumbuhan.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Office Lens\07112023, 2330511060.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Office Lens\2023_11_09 13_24 Office Lens.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Office Lens\2330511060LogikaInformatika18112023.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Office Lens\30102023,2330511060.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Office Lens\N.Abdillah Ramadlan, PDF UKM.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Office Lens\Tugas GBS1.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\Office Lens\TugasBTQ_N.Abdillah Ramadlan_2330511060_28102023_13041445.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\a
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\b
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\c
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\d
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\e
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\f
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\g
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\h
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\i
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\j
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\k
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly1\l
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\a
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\b
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\c
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\d
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\e
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\f
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\g
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\h
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\i
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\j
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\k
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Doc\New folder\ringtone\gamefree\jly2\l
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0\06082025.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0\06282024.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0\30 Juni 2024.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0\Asset.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0\Flustern Geheim.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0\formalhault.sql
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0\G0.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0\G2(AutoRecovered).xlsx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Last_Log E0\LogLastE0.xlsx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Later\Manajemen Memori- Revoupedia.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Later\Manusia.pdf
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Later\Mayoi.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Later\pendataan.sql
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Epsilon\0.1.Neo Delta.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Epsilon\1. Neo Zeta.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Epsilon\2. Neo Theta.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Epsilon\Betelgeuse
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Epsilon\Betelgeuse\Bab 0 ; Null.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Epsilon\Betelgeuse\Bab 1 ; Fire.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta\BH01.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta\Draft Log 1.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta\G424-C Class.xlsx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta\G424-D Class.xlsx
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta\harta.sql
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta\Kebutuhan.txt
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta\Log 5.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta\Log 6.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Logbook\Neo Zeta\Sirius.sql
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\New folder\Test-A.html
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\New folder\Test-B.html
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\New folder\Test-C.html
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\New folder\Test-D.html
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\New folder\Test-E.html
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\New folder\Test-F.html
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Oort\Kutipan Untuk Web.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Oort\oortmyid_cv.sql
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Oort\Repositories Oort.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Replicia\Oort\Tanpa judul.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Singularity\Alpha.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Singularity\Beta.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Singularity\Delta.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Singularity\Epsilon.md
+C:  \....\\GitHub\Theseus\4_Archive\Pengembangan Diri - 2026\Singularity\Gamma.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Arsip P2MW - 2025
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Evaluation Metrics.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Iseng
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Tanpa judul.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Arsip P2MW - 2025\440 Undangan Sosialiai P2MW.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Arsip P2MW - 2025\P2MW Automatic Standing Gadget Full Format 1.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Arsip P2MW - 2025\P2MW Automatic Standing Gadget Full Format.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Arsip P2MW - 2025\Panduan-P2MW-2023 (1).pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Arsip P2MW - 2025\PKM.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Iseng\P2MW.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Iseng\Sitasma 1.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Iseng\Tentang Oort.local.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Iseng\Test Iframe Obsidian.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\1. JUKNIS LKTI MAHASISWA NASIONAL BEM FSAINTEK UMMI 2026 .pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\ABSTRAK.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\ABSTRAK.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Contoh Lampiran.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\HMS Illustrious
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Peta
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Rubrik Penilaian.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Tanpa judul.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Template_LKTI.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Templating LKTI.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\02.-17032025-FKP-RPJMD-Sekda-edit.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Metopen.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\PERILAKU KONSUMEN-20250211T130838Z-001
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\2102859_Sarah Nabila_ Review Jurnal Pelayanan Prima.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\jurnal buat analisis
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\Pert 11 ETIKA KOMUNIKASI DALAM LAYANAN PRIMA.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\Pert 11 ETIKA KOMUNIKASI DALAM LAYANAN PRIMA.pptx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\Pert 12 LAYANAN PRIMA DAN MENGORGANISIR COMPLAIN (1).pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\Pert 12 LAYANAN PRIMA DAN MENGORGANISIR COMPLAIN (1).pptx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\Pert 12 LAYANAN PRIMA DAN MENGORGANISIR COMPLAIN.pptx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\Pert 5 SIKAP DALAM LAYANAN PRIMA.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\Pert 5 SIKAP DALAM LAYANAN PRIMA.pptx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\pert 7 JENIS DAN KARAKTERISTIK PELANGGANG.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\pert 7 JENIS DAN KARAKTERISTIK PELANGGANG.ppt
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\ruang lingkup perkuliahan.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\ruang lingkup perkuliahan.ppt
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\~$02859_Sarah Nabila_ Review Jurnal Pelayanan Prima.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\jurnal buat analisis\1941-4752-1-PB.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\jurnal buat analisis\20494-94418-1-PB.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\jurnal buat analisis\229570031.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\jurnal buat analisis\24-7797-1-SM (1).pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\jurnal buat analisis\24-7797-1-SM.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\Pelayanan Prima-20250211T130438Z-001\Pelayanan Prima\jurnal buat analisis\822-1429-1-SM.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\PERILAKU KONSUMEN-20250211T130838Z-001\PERILAKU KONSUMEN
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\PERILAKU KONSUMEN-20250211T130838Z-001\PERILAKU KONSUMEN\314622-prilaku-konsumen-dan-perkembangannya-1786c91e.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\PERILAKU KONSUMEN-20250211T130838Z-001\PERILAKU KONSUMEN\MENJADI KONSUMEN CERDAS.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\PERILAKU KONSUMEN-20250211T130838Z-001\PERILAKU KONSUMEN\PERILAKUKONSUMEN_Buku.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Bahan\PERILAKU KONSUMEN-20250211T130838Z-001\PERILAKU KONSUMEN\Zusrony, E. (2021). Perilaku Konsumen Di Era Modern. Penerbit Yayasan Prima Agus Teknik, 1-159..pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\HMS Illustrious\Analisis Makroekonomi Indonesia 2026.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\HMS Illustrious\Cost Effectiveness Analysis MBG.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\HMS Illustrious\PERHITUNGAN REFORMASI SUBSIDI INDONESIA.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\1. RPJMD - Read Phase.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\2. RPJMD - Encode Phase.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\2330511060-N.AbdillahRamadlan-Universitas Muhammadiyah Sukabumi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\3. RPJMD - Annonate Phase.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\4. RPJMD - Ponder Phase.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\Analisis Semiotika Charles Sanders Peirce Tentang Makna Logo Pariwisata Kabupaten Sukabumi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\A_User-_Based_Recommendation_with_a_Scalable_Machi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\Bab 1 - Draft.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\PENGARUH DAYA TARIK WISATA, AKSESBILITAS,.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\Tugas Literatur.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Miyo Sakuragi\unidajump2019,+5+Mulya+93+103_Jurnal+Komunikatio+6+2+2020+-+Copy.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Peta\administrasi-sukabumi-a1-1.jpg
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Peta\kontur-sukabumi-a1-11.jpg
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\LKTI - 2026\Peta\Sumber Peta.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Analisa Jurnal.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\JAKI.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MMPL.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPL - 1.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Pemprograman Game
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\rubrik-penilaian-tugas-pertemuan-4pdf-1776827587.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\7-ta-2021-07-visualisasi-modul-ariw-2021-07-17-v2-1pdf-1774926358.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\archive
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\archive.zip
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main.zip
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\Bank_transaksi.csv
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\BMC_Smart_Campus.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\bmi.csv
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\pra-processing-data-seleksi-fitur-dan-data-cleaningpdf-1746147726.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\rps-mata-kuliah-machine-learning-2025-2026pdf-1771827802.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ta-2021-06-data-understanding-aak-ui-2021-06-18pdf-1774926387.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\archive\AppleStore.csv
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\archive\appleStore_description.csv
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\.gitattributes
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\ArduSatoru.py
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\data_wisata.json
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\Pasted image 20260120204816.png
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\Pasted image 20260120204856.png
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\Pasted image 20260120204914.png
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\Readme.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\templates
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\__pycache__
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\templates\index.html
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Machine Learning\ArduSatoru-main\ArduSatoru-main\__pycache__\ArduSatoru.cpython-313.pyc
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\1
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Format Adendum.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Perjanjian
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\UAS MPPL.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\1\Argumentasi ; MOU.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\1\Denda.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\1\Hukum Perdata.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\1\Pengkajian Hukum Islam.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\1\Penguatan Dalil Quran, Hadist.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Fase Inisiasi.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Listting Kebutuhan.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Pasted image 20260621065726.png
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Pembuatan Asumsi ide Bisnis ; Sisi Agrikultur.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Pembuatan Ide Bisnis ; Kelistrikan.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Riset
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Riset\7 Jenis Sistem Irigasi Pertanian untuk Pengelolaan Air yang Efektif - Huller uPVC Expert.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Riset\Cara Kerja PPM.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Riset\Gravity pump (pompa gravitasi).md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Riset\Pasted image 20260621064301.png
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Pengkajian Mr.Y\Riset\Pasted image 20260621064418.png
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Perjanjian\Breach Of Contract.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Perjanjian\DOKUMEN MANAJEMEN KUALITAS.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\MPPL\Perjanjian\DOKUMEN MANAJEMEN RISIKO.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Matakuliah 2023\Pemprograman Game\Copy of Project Design Doc TEMPLATE - [GDOC] - Google Dokumen.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\DunkerqueQuotes.mht
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\JASA_DAN_PERDAGANGAN - KHANSA_NISRINA - JALORENT.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\jurnal.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\KEL8_JALORENT.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\Kel8_Jaloren_pkwu.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\Kelompok 8_PKWU_JALOREN.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\PKWU.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\PKWU_kEL8_JALORENT.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\PKWU_KEL8_JALORENT2.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\PKWU_KEL8_JALORENT3.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\P2MW-Before-2025\PROPOSAL_P2MW_YORA_RENTCOS_(Tambah table).docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\Akal.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\DID
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\Hostinger
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\List topic Book Of 10 ( Altair ).md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\Pasted image 20231218052716.png
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\Pasted image 20240526203833.png
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\Pasted image 20240526204218.png
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\ReadAllTxt.php
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\ReadTXTtoPHP.php
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\Sampling
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\Untitled.canvas
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\WriteTOtxt.php
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\DID\Answer.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\DID\Otus_Flustern_DISC_and_Motivators.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\DID\Question 1.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\DID\Question 2.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\DID\Question 3.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\DID\Question 4.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\Hostinger\style.css
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\Pengembangan 2025\Hostinger\tst.php
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\Analisis.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\Flowchart-InputEmosi.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\Flowchart-Pemberitahuan.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\Flowchart-Pemberitahuan2.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\Panduan PKM 2026 – Simbelmawa.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\PKM-KC
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\PKM-KC Word progress edit.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\PKM-KC-2026_fix.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\PKM-KC_Aplikasi Intervensi Psikologis Anak Berbasis AI, sebagai Solusi Revolusioner untuk Menjaga Kesehatan Mental Anak SD - Eri Rismaya.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\PKM.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\pkm_kc_2026_timeline.jpg
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\Surat_KP_020_2330511060 (1).pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\template-Permohonan-Akun-Simbelmawa-PKM.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\Topik Bahasan.md
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\PKM-KC\3_3253.pdf
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\PKM-KC\Desain.docx
+C:  \....\\GitHub\Theseus\4_Archive\UMMI\PKM - 2026\PKM-KC\PKM-KC.docx
+C:  \....\\GitHub\Theseus\Pluto\1_Capture
+C:  \....\\GitHub\Theseus\Pluto\2_Organize
+C:  \....\\GitHub\Theseus\Pluto\Sampah
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Dokumentasi Replicia
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Response
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Apa itu Data Warehouse.txt
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Catatan 03 July 2025.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\GNU Agreement Git.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\KODE YANG MEWAKILI DATA.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\MVT.txt
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\PengambilanData.txt
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\PT7_KompleksitasAlgoritma_05062025.txt
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\uas-4b-jarkomdasarpdf-1753066321.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_084625.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_084629.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_084637.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_084652.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_092245.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_093124.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_093138.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_093158.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_093444.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_093541.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_093958.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094109.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094134.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094203.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094230.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094251.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094354.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094427.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094514.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094547.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094703.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_094706.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_095324.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_095330.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_095913.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_100041.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_100248.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_100408.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_100423.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_100503.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_100610.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_100737.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_100934.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_101507.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_101725.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102028.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102145.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102300.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102309.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102318.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102322.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102510.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102633.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102705.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_102855.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_103010.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_103408.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_103555.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_103622.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_103748.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_103808.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_103843.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_104022.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_104212.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_104451.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_104601.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_104715.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_105444.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_105831.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_105953.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_110027.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_110109.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_111019.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_111118.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_111928.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_112219.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_112406.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_112520.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_112611.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_115005.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\Creative Station\Screenshot_20230916_115303.jpg
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\024 - Surat Iizn Ortu ILT 2 2023 New.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\2023-02-20_Surat_Undangan_LDK Al-Kautsar Universitas Pakuan.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\3062, 031 cm.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\A.2-040 Bupati Sukabumi-Permohonan Daftar Penerima Beasiswa 23.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\AHMAD SOPPIAN S_053122044.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Bahan ajar-Mekanika-Fluida-1-Bagian 1.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Bahan ajar-Mekanika-Fluida-1-Bagian 2.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\CamScanner 01-06-2023 02.58.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\dlscrib.com-pdf-15454-sni-8153-2015-copy-dl_6b897e831604b30d31f55f3f4263e897.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Dokumen Pindaian-1.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Dokumen Pindaian-2.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Dokumen Pindaian.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\ETIKET BANG AGUNG.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\FISIKA.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Formulir Pendaftaran STUPAMASI & BAKSOS 2022-2023.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Gambar.zip
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\GEMPA BUMI LOMBOK, 2018 (1).pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\GEO PDF.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\JADWAL UAS PRINT (1).pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\JADWAL UAS.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\kipdf.com_momentum-impulse-a-moving-object-has-momentum-iner_5ad058537f8b9acd7a8b463d.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\KTI - desi arisandi.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\KTI KELOMPOK 2.docx
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\KTI_Paulus_Uji_sondir_Interpretasi_dan_Aplikasinya_untuk_Perancangan_Pondasihc-p.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\LOGISTIK_KELOMPOK.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\LOGISTIK_PERORANGAN.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\M Ikhsan R.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Materi hari jumat 10 maret.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Materi IASS - 030323.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Materi Prodi Teknik Sipil - 030323.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\mek_bhn1_tugas_3-04-2023(genap).pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\mg ke ... inTegral lipat 2.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\mg ke 9 integral.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PANITIA KAISAR SPESIAL 2022-2.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PANITIA_WORKSHOP_DESIGN_2023.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PDF document.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PDF Gallery_20230106_102621.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PDF Gallery_20230109_220117.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Pemberitahuan Cuti bersama.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Pemberitahuan Libur.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Pengganti Ijazah SD N.Abdillah.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PENGUMUMAN PENANGGUHAN GANJIL 20222023.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Perpanjangan Pembayaran SPP Smt Genap 2022-2023.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PERTEMUAN 10.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PERTEMUAN 2-3.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PERTEMUAN 4.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PERTEMUAN 5.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PERTEMUAN 6-7.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PERTEMUAN 8.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Peserta Statistika dan Probabilitas 2023.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PP No. 41 th 1999.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PROBLEM SOLVING.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\PROPOSAL SYIAR RAMADHAN 1444 H.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\REV 250223 - JADWAL KULIAH GENAP 2022 2023.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\rill.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Ringkasan Pembahasan untuk Pasca Stapak.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Rundown WS FIX.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\skriningday1.MP4
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\skriningyudey.MP4
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\SOAL STATIKA 2023 revisi.docx
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\soal UTS matematika-matematika1 ganjil 2021-22_vrf071121.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\SOALTUGAS Pra- UAS Fisika Dasar  2022 2023.docx
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\Surat Edaran FH tentang Acara Gathering Fakultas Hukum universitas Pakuan.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\SURAT EDARAN.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\TUGAS_GEOREK_LIKUIFAKSI_PALU_2018_PDF.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\DataStream\UNPAK\WAImageSep72024.zip
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\10Juli
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\14Juli2025
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\data.txt
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\How to Address Cognitive Distortions Through Cognitive Journaling.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\Jarkom.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\keyboard-shortcuts-windows.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\Mariott_Hacked-CSO_2018.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\Persiapan untuk Ads.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\Shadow Work Journals_TikTok Trend,How Do They Work_ _ Teen Vogue.pdf
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\Tanpa judul.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\10Juli\10 Juli 2025.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\10Juli\Pasted image 20250710100444.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\14Juli2025\14 Juli 2025.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\14Juli2025\Pasted image 20250714134219.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\4 Juli 2025.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704103729.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704104522.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704104910.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704105151.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704105507.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704111035.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704111210.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704111351.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704111414.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704113729.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\4Juli2025\Pasted image 20250704113816.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\9 Juli 2025.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709103721.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709104112.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709104337.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709104416.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709104434.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709104514.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709104743.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709104815.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709104839.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105026.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105112.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105206.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105246.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105337.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105355.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105536.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105733.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105824.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709105857.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709110053.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709110216.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709110234.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709110255.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709111055.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709111119.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709112944.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Draft Tugas\9Julis2025\Pasted image 20250709114556.png
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Response\Matkul Web.md
+C:  \....\\GitHub\Theseus\Pluto\1_Capture\Response\You Do You.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Time
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\1 Mei 2025.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\F-Idea.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\Key
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\Satelit Outer Quipper.txt
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\Sirius.php
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\Key\AB07.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\Key\Aldebaran.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\Key\Betelgeuse.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\Key\Canopus.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Idea\Key\Meidonalis.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Time\02132025.txt
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Time\04292025.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Time\04302025.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Time\05052025.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Time\F-Time block.md
+C:  \....\\GitHub\Theseus\Pluto\2_Organize\MOC_Time\Kuliah.pdf
+C:  \....\\GitHub\Theseus\Pluto\Sampah\Bab 3.md
+
+D:\PARA\1_Project\Agenda.json
+D:\PARA\1_Project\Executive_Report.json
+D:\PARA\1_Project\Periodic_Report.json
+D:\PARA\1_Project\Special_Report.json
+D:\PARA\1_Project\Custom Page
+D:\PARA\1_Project\Modulate
+D:\PARA\1_Project\Redirect
+D:\PARA\1_Project\Relik
+D:\PARA\1_Project\Custom Page\Kronologi_1945.html
+D:\PARA\1_Project\Custom Page\Redirect.html
+D:\PARA\1_Project\Custom Page\sistem_inventaris_barang.html
+D:\PARA\1_Project\Custom Page\supleapp.html
+D:\PARA\1_Project\Modulate\Dzikr
+D:\PARA\1_Project\Modulate\Firefly
+D:\PARA\1_Project\Modulate\HMS-Dido
+D:\PARA\1_Project\Modulate\HMS-Javelin
+D:\PARA\1_Project\Modulate\Photo Gallery
+D:\PARA\1_Project\Modulate\Dzikr\dzikr.js
+D:\PARA\1_Project\Modulate\Dzikr\dzikrv2.html
+D:\PARA\1_Project\Modulate\Dzikr\index.html
+D:\PARA\1_Project\Modulate\Dzikr\Info.html
+D:\PARA\1_Project\Modulate\Firefly\app.py
+D:\PARA\1_Project\Modulate\Firefly\firefly.md
+D:\PARA\1_Project\Modulate\Firefly\Inventory.json
+D:\PARA\1_Project\Modulate\Firefly\requirements.txt
+D:\PARA\1_Project\Modulate\Firefly\static
+D:\PARA\1_Project\Modulate\Firefly\templates
+D:\PARA\1_Project\Modulate\Firefly\__pycache__
+D:\PARA\1_Project\Modulate\Firefly\static\script.js
+D:\PARA\1_Project\Modulate\Firefly\static\style.css
+D:\PARA\1_Project\Modulate\Firefly\templates\index.html
+D:\PARA\1_Project\Modulate\Firefly\__pycache__\app.cpython-313.pyc
+D:\PARA\1_Project\Modulate\HMS-Dido\index.html
+D:\PARA\1_Project\Modulate\HMS-Dido\test.html
+D:\PARA\1_Project\Modulate\HMS-Dido\css
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome
+D:\PARA\1_Project\Modulate\HMS-Dido\img
+D:\PARA\1_Project\Modulate\HMS-Dido\js
+D:\PARA\1_Project\Modulate\HMS-Dido\mov
+D:\PARA\1_Project\Modulate\HMS-Dido\css\bootstrap.min.css
+D:\PARA\1_Project\Modulate\HMS-Dido\css\templatemo-video-catalog.css
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\LICENSE.txt
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\css
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\css\all.min.css
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.eot
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.svg
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.ttf
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.woff
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-brands-400.woff2
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.eot
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.svg
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.ttf
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.woff
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-regular-400.woff2
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.eot
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.svg
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.ttf
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.woff
+D:\PARA\1_Project\Modulate\HMS-Dido\fontawesome\webfonts\fa-solid-900.woff2
+D:\PARA\1_Project\Modulate\HMS-Dido\img\about-1.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\about-2.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\about-3.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\contact-1.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\contact-2.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\select-arrow.png
+D:\PARA\1_Project\Modulate\HMS-Dido\img\testimonial-1.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\testimonial-2.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\testimonial-3.png
+D:\PARA\1_Project\Modulate\HMS-Dido\img\testimonial-4.png
+D:\PARA\1_Project\Modulate\HMS-Dido\img\tn-01.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\tn-02.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\tn-03.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\tn-04.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\tn-05.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\tn-06.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\tn-07.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\tn-08.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\tn-09.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\img\video-detail-1.jpg
+D:\PARA\1_Project\Modulate\HMS-Dido\js\bootstrap.min.js
+D:\PARA\1_Project\Modulate\HMS-Dido\js\image_viewer.js
+D:\PARA\1_Project\Modulate\HMS-Dido\js\jquery-3.4.1.min.js
+D:\PARA\1_Project\Modulate\HMS-Dido\js\parallax.min.js
+D:\PARA\1_Project\Modulate\HMS-Dido\js\viewer.js
+D:\PARA\1_Project\Modulate\HMS-Dido\js\New folder
+D:\PARA\1_Project\Modulate\HMS-Dido\mov\Screen Recording 2025-10-19 203636.mp4
+D:\PARA\1_Project\Modulate\HMS-Javelin\Idea
+D:\PARA\1_Project\Modulate\HMS-Javelin\Idea\Obsidian_SingleFile.html
+D:\PARA\1_Project\Modulate\Photo Gallery\Gallery.html
+D:\PARA\1_Project\Modulate\Photo Gallery\Asset
+D:\PARA\1_Project\Modulate\Photo Gallery\Asset\js
+D:\PARA\1_Project\Modulate\Photo Gallery\Asset\js\viewer.js
+D:\PARA\1_Project\Redirect\House_5.html
+D:\PARA\1_Project\Redirect\Redirect-Voiceline.html
+D:\PARA\1_Project\Redirect\saldo-light.html
+D:\PARA\1_Project\Redirect\saldo-malice.html
+D:\PARA\1_Project\Redirect\saldo-multi.html
+D:\PARA\1_Project\Redirect\txn-multi.html
+D:\PARA\1_Project\Redirect\txn-sentiment.html
+D:\PARA\1_Project\Redirect\txn-single.html
+D:\PARA\1_Project\Redirect\V1-Update.html
+D:\PARA\1_Project\Relik\data.json
+D:\PARA\1_Project\Relik\server.js
+D:\PARA\1_Project\Relik\V1-Update.html
+D:\PARA\1_Project\Relik\GPT
+D:\PARA\1_Project\Relik\Me
+D:\PARA\1_Project\Relik\TestGround
+D:\PARA\1_Project\Relik\GPT\Regulus.js
+D:\PARA\1_Project\Relik\Me\HMS-Dido
+D:\PARA\1_Project\Relik\Me\Messier31
+D:\PARA\1_Project\Relik\Me\Relik
+D:\PARA\1_Project\Relik\Me\Tonnentzier618
+D:\PARA\1_Project\Relik\Me\HMS-Dido\dido.html
+D:\PARA\1_Project\Relik\Me\HMS-Dido\main.js
+D:\PARA\1_Project\Relik\Me\Messier31\Boreas.html
+D:\PARA\1_Project\Relik\Me\Messier31\index.html
+D:\PARA\1_Project\Relik\Me\Messier31\main.js
+D:\PARA\1_Project\Relik\Me\Messier31\Messier31.html
+D:\PARA\1_Project\Relik\Me\Messier31\Regulus.html
+D:\PARA\1_Project\Relik\Me\Messier31\assets
+D:\PARA\1_Project\Relik\Me\Messier31\assets\js
+D:\PARA\1_Project\Relik\Me\Messier31\assets\js\Boreas.js
+D:\PARA\1_Project\Relik\Me\Messier31\assets\js\Regulus.js
+D:\PARA\1_Project\Relik\Me\Messier31\assets\js\Rigel.js
+D:\PARA\1_Project\Relik\Me\Messier31\assets\js\Sertan.js
+D:\PARA\1_Project\Relik\Me\Messier31\assets\js\Tarf.js
+D:\PARA\1_Project\Relik\Me\Relik\Hells_Gauntlet.js
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\MEEF.js
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HV121
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\error_log
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Gungnir.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Amiya.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Chapayev_Quotes_Full.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\eyjafjalla_dialogue.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Ganyu.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\index.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Kama.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Miyo_Sakurai.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\New_Jersey.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Noa-Pajama.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Noa.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Rio.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Rio_Battle.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Shun.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Sorasaki-Hina.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\St_Louis_Quotes_Full.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Warspite.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\Z23.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Himari.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Hina.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Miyako.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Noa.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Betelgeuse\ASMR\Nonomi.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\.htaccess
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Albiero.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\altair.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\anka.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Antares.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\constra-1.0.0.zip
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\error_log
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\hunt_gather.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\hunt_input.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\inventory-db.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Link.json
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\pixiv_extractor.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Pollux.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\Sirius.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\data
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\data\ability_modifier.json
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\data\session-chracter-pocket.json
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Sirius\data\session-market.json
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\error_log
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\index.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\Intertransaction-v2.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\InterTransaction.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\Pollux.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\Spica-Optimist.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\Spica-Pesimist.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\transaction.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HD140283\Spica\XGF34.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\HV121\Redirect1.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\index.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\input_cornell.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\list_cornell.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\about.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\contact.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\index.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\service.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\fonts
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\js
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\alternate.css
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\bootstrap.css
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\font-awesome.min.css
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\responsive.css
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\style.css
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\style.css.map
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\css\style.scss
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\fonts\fontawesome-webfont.ttf
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\fonts\fontawesome-webfont.woff
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\fonts\fontawesome-webfont.woff2
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\about-img.jpg
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\client-1.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\client-2.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\fevicon.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\next.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\prev.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\s1.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\s2.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\s3.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\s4.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\slider-bg.jpg
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\images\track-bg.jpg
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\js\bootstrap.js
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\js\custom.js
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\Asset\js\jquery-3.4.1.min.js
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Achernar.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Alya.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\asosiasi_oortmyid.json
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Diphda.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\E0.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\error_log
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\formalhault.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\get_nama_list.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\illust_67847889_20220528_154725 copy.png
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\illust_86200817_20230725_203740.jpg
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Mimosa.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Mimosa.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Percobaan.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\PG1159.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Pollux.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\R71.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\R71.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Sirius.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Spica.html
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\Spica.php
+D:\PARA\1_Project\Relik\Me\Tonnentzier618\Test\XGF34\XGF34.php
+D:\PARA\1_Project\Relik\TestGround\event-identity.html
+D:\PARA\1_Project\Relik\TestGround\event-social.html
+D:\PARA\1_Project\Relik\TestGround\private.html
+D:\PARA\1_Project\Relik\TestGround\profil-altair-test2.html
+D:\PARA\1_Project\Relik\TestGround\profil-altair.html
+D:\PARA\1_Project\Relik\TestGround\public.html
+D:\PARA\1_Project\Relik\TestGround\restricted.html
+D:\PARA\1_Project\Relik\TestGround\Test-F.html
+D:\PARA\1_Project\Relik\TestGround\Oort
+D:\PARA\1_Project\Relik\TestGround\Oort\index.html
+D:\PARA\1_Project\Relik\TestGround\Oort\package.json
+D:\PARA\1_Project\Relik\TestGround\Oort\server.js

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Summon // ALPHA–OMEGA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#04060c;
+    --bg-elevated:#080c17;
+    --bg-elevated-2:#0d1424;
+    --line:#16233d;
+    --line-bright:#1f3358;
+    --cyan:#4fe0ff;
+    --blue:#3b6bff;
+    --blue-dim:#1b3b8f;
+    --text:#dfe9fb;
+    --text-muted:#5f7396;
+    --danger:#ff5c7a;
+    --radius:10px;
+    --font-display:'Orbitron', sans-serif;
+    --font-body:'IBM Plex Sans', sans-serif;
+    --font-mono:'JetBrains Mono', monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      linear-gradient(rgba(79,224,255,0.045) 1px, transparent 1px) 0 0/100% 42px,
+      linear-gradient(90deg, rgba(79,224,255,0.045) 1px, transparent 1px) 0 0/42px 100%,
+      radial-gradient(1100px 650px at 50% -10%, rgba(59,107,255,0.20), transparent 60%),
+      radial-gradient(700px 500px at 50% 115%, rgba(79,224,255,0.08), transparent 60%),
+      var(--bg);
+    color:var(--text);
+    font-family:var(--font-body);
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+  .wrap{max-width:640px;margin:0 auto;padding:48px 24px 80px;display:flex;flex-direction:column;align-items:center;text-align:center;}
+
+  .topnav{width:100%;display:flex;justify-content:space-between;align-items:center;margin-bottom:44px;flex-wrap:wrap;gap:16px;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .brand-mark{width:30px;height:30px;border:1.5px solid var(--cyan);border-radius:4px;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:12px;color:var(--cyan);box-shadow:0 0 12px rgba(79,224,255,0.35);}
+  .brand-name{font-family:var(--font-mono);font-size:12px;letter-spacing:0.14em;color:var(--text-muted);text-transform:uppercase;}
+  .navlink{font-family:var(--font-mono);font-size:13px;letter-spacing:0.04em;text-decoration:none;color:var(--text-muted);border:1px solid var(--line);padding:9px 16px;border-radius:4px;transition:border-color .18s,color .18s;}
+  .navlink:hover{border-color:var(--cyan);color:var(--cyan);}
+
+  .eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:0.28em;color:var(--cyan);text-transform:uppercase;margin:0 0 10px;}
+  h1{font-family:var(--font-display);font-weight:700;font-size:clamp(28px,4.6vw,42px);margin:0 0 12px;letter-spacing:0.04em;text-shadow:0 0 24px rgba(79,224,255,0.25);}
+  .sub{color:var(--text-muted);font-size:14.5px;line-height:1.7;max-width:46ch;margin:0 0 40px;font-family:var(--font-mono);}
+  .sub span{color:var(--cyan);}
+
+  /* --- signature element: scanning hex ring --- */
+  .circle-stage{position:relative;width:260px;height:260px;margin:0 auto 36px;display:flex;align-items:center;justify-content:center;}
+  .circle-stage svg{width:100%;height:100%;overflow:visible;}
+  .ring-outer{transform-origin:130px 130px;animation:spin 16s linear infinite;}
+  .ring-inner{transform-origin:130px 130px;animation:spin-rev 10s linear infinite;}
+  .scan-line{transform-origin:130px 130px;animation:spin 2.6s linear infinite;}
+  .circle-stage.rolling .ring-outer{animation-duration:1s;}
+  .circle-stage.rolling .ring-inner{animation-duration:0.6s;}
+  .circle-stage.rolling .scan-line{animation-duration:0.5s;}
+  @keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+  @keyframes spin-rev{from{transform:rotate(360deg)}to{transform:rotate(0deg)}}
+  .core-glyph{
+    font-family:var(--font-display);font-weight:700;font-size:52px;fill:var(--cyan);
+    text-anchor:middle;dominant-baseline:central;
+    filter:drop-shadow(0 0 10px rgba(79,224,255,0.6));
+    transition:opacity .15s;
+  }
+  .orb-label{position:absolute;bottom:-6px;font-family:var(--font-mono);font-size:11px;letter-spacing:0.16em;color:var(--cyan);text-transform:uppercase;}
+
+  .btn-summon{
+    font-family:var(--font-display);font-weight:700;font-size:15.5px;letter-spacing:0.12em;
+    background:transparent;color:var(--cyan);border:1.5px solid var(--cyan);border-radius:4px;
+    padding:15px 40px;cursor:pointer;transition:all .18s;text-transform:uppercase;
+    box-shadow:0 0 0 rgba(79,224,255,0);
+  }
+  .btn-summon:hover{background:rgba(79,224,255,0.1);box-shadow:0 0 22px rgba(79,224,255,0.35);transform:translateY(-1px);}
+  .btn-summon:active{transform:translateY(0);}
+  .btn-summon:disabled{opacity:0.4;cursor:not-allowed;transform:none;box-shadow:none;}
+
+  .status{margin-top:18px;font-family:var(--font-mono);font-size:12px;color:var(--text-muted);min-height:18px;letter-spacing:0.03em;}
+  .status.error{color:var(--danger);}
+
+  .result-card{
+    margin-top:36px;width:100%;background:var(--bg-elevated);border:1px solid var(--line-bright);
+    border-radius:var(--radius);padding:28px 24px;opacity:0;transform:translateY(10px);
+    transition:opacity .35s ease, transform .35s ease;position:relative;overflow:hidden;
+  }
+  .result-card::before{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(120deg, transparent 30%, rgba(79,224,255,0.06) 50%, transparent 70%);
+    pointer-events:none;
+  }
+  .result-card.show{opacity:1;transform:translateY(0);}
+  .result-eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:0.22em;color:var(--blue);text-transform:uppercase;margin:0 0 10px;}
+  .result-name{font-family:var(--font-display);font-size:30px;font-weight:700;margin:0 0 6px;letter-spacing:0.03em;}
+  .result-id{font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin:0 0 20px;}
+  .result-dest{font-size:13px;color:var(--text-muted);line-height:1.6;font-family:var(--font-mono);}
+  .result-dest a{color:var(--cyan);text-decoration:none;border-bottom:1px dotted var(--blue-dim);}
+  .redirect-note{margin-top:14px;font-family:var(--font-mono);font-size:12px;color:var(--cyan);}
+
+  .history{margin-top:28px;width:100%;text-align:left;}
+  .history-title{font-family:var(--font-mono);font-size:11px;letter-spacing:0.16em;color:var(--text-muted);text-transform:uppercase;margin:0 0 10px;}
+  .history-list{display:flex;flex-wrap:wrap;gap:8px;}
+  .history-chip{font-family:var(--font-mono);font-size:12px;color:var(--text-muted);border:1px solid var(--line);border-radius:4px;padding:5px 12px;}
+  .history-chip b{color:var(--cyan);}
+
+  @media (max-width:480px){
+    .circle-stage{width:200px;height:200px;}
+    .btn-summon{padding:13px 30px;font-size:14px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topnav">
+    <div class="brand">
+      <div class="brand-mark">Ω</div>
+      <div class="brand-name">Designation Grid</div>
+    </div>
+    <a class="navlink" href="summon.html">← Versi Roster</a>
+  </div>
+
+  <p class="eyebrow">Page 2 · Digital</p>
+  <h1>SUMMON // Α–Ω</h1>
+  <p class="sub">Tarik satu designasi secara acak dari rentang <span>ALPHA</span> sampai
+    <span>OMEGA</span>. Jika designasi punya tujuan terdaftar di
+    <span>destination-map-digital.js</span>, kamu akan diarahkan ke sana.</p>
+
+  <div class="circle-stage" id="circle-stage">
+    <svg viewBox="0 0 260 260">
+      <g class="ring-outer">
+        <circle cx="130" cy="130" r="118" fill="none" stroke="#16233d" stroke-width="1.5" />
+        <circle cx="130" cy="130" r="118" fill="none" stroke="#4fe0ff" stroke-width="1.2"
+          stroke-dasharray="2 3 8 3" stroke-linecap="round" opacity="0.75" />
+        <g fill="#4fe0ff" opacity="0.9">
+          <rect x="127" y="6" width="6" height="6" />
+          <rect x="248" y="127" width="6" height="6" />
+          <rect x="127" y="248" width="6" height="6" />
+          <rect x="6" y="127" width="6" height="6" />
+        </g>
+      </g>
+      <g class="ring-inner">
+        <circle cx="130" cy="130" r="90" fill="none" stroke="#3b6bff" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="1 6" />
+        <circle cx="130" cy="130" r="70" fill="none" stroke="#3b6bff" stroke-width="1" stroke-opacity="0.35" />
+      </g>
+      <g class="scan-line" opacity="0.8">
+        <line x1="130" y1="130" x2="130" y2="20" stroke="#4fe0ff" stroke-width="1.5" />
+        <circle cx="130" cy="20" r="2.5" fill="#4fe0ff" />
+      </g>
+      <circle cx="130" cy="130" r="52" fill="#080c17" stroke="#4fe0ff" stroke-width="1.2" />
+      <text x="130" y="132" class="core-glyph" id="core-glyph">Ω</text>
+    </svg>
+    <span class="orb-label" id="orb-label">STANDBY</span>
+  </div>
+
+  <button class="btn-summon" id="btn-summon">Jalankan Summon</button>
+  <div class="status" id="status">Menyiapkan rentang designasi…</div>
+
+  <div class="result-card" id="result-card">
+    <p class="result-eyebrow">Designasi Terpanggil</p>
+    <p class="result-name" id="result-name">—</p>
+    <p class="result-id" id="result-id">—</p>
+    <p class="result-dest" id="result-dest"></p>
+    <p class="redirect-note" id="redirect-note" style="display:none"></p>
+  </div>
+
+  <div class="history" id="history" style="display:none">
+    <p class="history-title">Log sesi ini</p>
+    <div class="history-list" id="history-list"></div>
+  </div>
+
+</div>
+
+<!-- File ekstensi: kamus Designasi (Alpha-Omega) -> URL tujuan -->
+<script src="destination-map-digital.js"></script>
+<script>
+  const REDIRECT_DELAY_MS = 2200;
+
+  const stageEl = document.getElementById("circle-stage");
+  const orbLabel = document.getElementById("orb-label");
+  const coreGlyph = document.getElementById("core-glyph");
+  const btnSummon = document.getElementById("btn-summon");
+  const statusEl = document.getElementById("status");
+  const resultCard = document.getElementById("result-card");
+  const resultName = document.getElementById("result-name");
+  const resultId = document.getElementById("result-id");
+  const resultDest = document.getElementById("result-dest");
+  const redirectNote = document.getElementById("redirect-note");
+  const historyEl = document.getElementById("history");
+  const historyList = document.getElementById("history-list");
+
+  let pool = [];
+  let history = [];
+
+  function buildPool() {
+    const map = window.DESTINATION_MAP_DIGITAL || {};
+    pool = Object.keys(map).map(key => ({ key, ...map[key] }));
+  }
+
+  function initStatus() {
+    buildPool();
+    if (pool.length === 0) {
+      statusEl.textContent = "Kamus designasi kosong — cek destination-map-digital.js";
+      statusEl.classList.add("error");
+      btnSummon.disabled = true;
+      return;
+    }
+    statusEl.textContent = `${pool.length} designasi siap ditarik (ALPHA–OMEGA).`;
+    orbLabel.textContent = "STANDBY";
+  }
+
+  function isSafeUrl(url) {
+    try {
+      const u = new URL(url, window.location.href);
+      return u.protocol === "http:" || u.protocol === "https:";
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function pushHistory(item) {
+    history.unshift(item);
+    history = history.slice(0, 8);
+    historyEl.style.display = "block";
+    historyList.innerHTML = history
+      .map(h => `<span class="history-chip"><b>${h.code}</b> ${titleCase(h.key)}</span>`)
+      .join("");
+  }
+
+  function titleCase(s) {
+    return s.charAt(0) + s.slice(1).toLowerCase();
+  }
+
+  async function handleSummon() {
+    if (pool.length === 0) return;
+    btnSummon.disabled = true;
+    resultCard.classList.remove("show");
+    redirectNote.style.display = "none";
+    stageEl.classList.add("rolling");
+    orbLabel.textContent = "SCANNING…";
+    statusEl.classList.remove("error");
+    statusEl.textContent = "Memindai rentang Α–Ω…";
+
+    // glyph glitch/cycle effect while "scanning"
+    const glyphs = pool.map(p => p.symbol);
+    let ticks = 0;
+    const glitchInterval = setInterval(() => {
+      coreGlyph.textContent = glyphs[Math.floor(Math.random() * glyphs.length)];
+      ticks++;
+    }, 70);
+
+    await new Promise(r => setTimeout(r, 1300));
+    clearInterval(glitchInterval);
+
+    const picked = pool[Math.floor(Math.random() * pool.length)];
+
+    stageEl.classList.remove("rolling");
+    orbLabel.textContent = "LOCKED";
+    coreGlyph.textContent = picked.symbol;
+    statusEl.textContent = `${pool.length} designasi siap ditarik (ALPHA–OMEGA).`;
+
+    resultName.textContent = `${titleCase(picked.key)} · ${picked.code}`;
+    resultId.textContent = `DESIGNATION_KEY: ${picked.key}`;
+    pushHistory(picked);
+
+    const destUrl = picked.url && picked.url.trim();
+    if (destUrl && isSafeUrl(destUrl)) {
+      resultDest.innerHTML = `Tujuan terdaftar: <a href="${destUrl}" target="_blank" rel="noopener">${destUrl}</a>`;
+      redirectNote.style.display = "block";
+      redirectNote.textContent = `Mengarahkan otomatis dalam ${(REDIRECT_DELAY_MS / 1000).toFixed(1)} detik…`;
+      resultCard.classList.add("show");
+      btnSummon.disabled = false;
+      setTimeout(() => { window.location.href = destUrl; }, REDIRECT_DELAY_MS);
+    } else {
+      resultDest.textContent = "Belum ada URL tujuan untuk designasi ini. Isi kamusnya di destination-map-digital.js.";
+      resultCard.classList.add("show");
+      btnSummon.disabled = false;
+    }
+  }
+
+  btnSummon.addEventListener("click", handleSummon);
+  initStatus();
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Katalog Catatan — Rekomendasi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-title">Katalog Catatan <span class="drawer-no">/ Laci 01</span></div>
+    <nav class="site-nav">
+      <a href="index.html">Baca</a>
+      <a href="rekomendasi.html" aria-current="page">Rekomendasi</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="rekomendasi-header">
+      <div class="eyebrow">Kartu terkait</div>
+      <h1>Catatan yang mirip dengan "<span id="judul-sumber">…</span>"</h1>
+      <p>Kecocokan dihitung dari kata kunci, rumpun ilmu, tingkat, dan fase catatan yang sama — dibaca langsung dari <code>KAMUS_CATATAN</code>.</p>
+      <label for="pilih-sumber" style="display:block; margin-top:14px; font-family:var(--font-label); font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--gold);">
+        Bandingkan dari catatan
+      </label>
+      <select class="pilih-sumber" id="pilih-sumber"></select>
+    </div>
+
+    <div class="grid-rekomendasi" id="grid-rekomendasi"></div>
+  </main>
+
+  <footer class="site-footer">KAMUS_CATATAN · dictionary.js — data terpisah dari tampilan</footer>
+
+  <script src="js/dictionary.js"></script>
+  <script src="js/rekomendasi.js"></script>
+</body>
+</html>

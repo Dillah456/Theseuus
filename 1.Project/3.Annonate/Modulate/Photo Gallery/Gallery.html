@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Gallery</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
+.photo-container {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.photo-container:hover {
+    transform: scale(1.05);
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.photo-title {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<a href="Shinano.html"><h1>Photo Gallery</h1></a>
+
+<div class="gallery" id="gallery"></div>
+
+<script src="Asset/js/viewer.js"></script>
+
+<script>
+
+const gallery = document.getElementById("gallery");
+
+async function loadGallery() {
+
+  const response = await fetch("Asset/js/shinano.json");
+  const data = await response.json();
+
+  const images = data.images;
+
+  images.forEach((src, index) => {
+
+    const item = document.createElement("div");
+    item.className = "photo-container";
+
+   item.innerHTML = `
+        <a href="${src}" target="_blank">
+            <img src="${src}" alt="Photo ${index + 1}">
+        </a>
+        <div class="photo-title">Photo ${index + 1}</div>
+        `;
+
+    gallery.appendChild(item);
+
+  });
+
+}
+
+loadGallery();
+
+</script>
+
+</body>
+</html>
